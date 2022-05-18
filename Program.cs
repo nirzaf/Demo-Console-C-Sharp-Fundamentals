@@ -50,6 +50,3 @@ WriteLine(num1 / num2);
 
 
 
-
-
-
