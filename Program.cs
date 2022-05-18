@@ -1,99 +1,54 @@
 ﻿using static System.Console;
 
-//WriteLine("Hello, World!");
+WriteLine("Enter a number : ");
 
-//string myName;
+int x = Convert.ToInt32(ReadLine());
 
-//int number = 34;
+WriteLine("Enter a symbol : ");
 
-//int maxNum = int.MaxValue;
+char symbol = Convert.ToChar(ReadLine());
 
-//WriteLine(maxNum);
+WriteLine("Enter a number 2 : ");
 
-//float maxFloatValue = float.MaxValue;
+int y = Convert.ToInt32(ReadLine());
 
-//WriteLine(maxFloatValue);
+if (symbol == '+')
+{
+    WriteLine(x + y);
+}
+else if (symbol == '-')
+{
+    WriteLine(x - y);
+}
+else if (symbol == '*')
+{
+    WriteLine(x * y);
+}
+else if (symbol == '/')
+{
+    WriteLine(x / y);
+}
+else
+{
+    WriteLine("Invalid Symbol");
+}
 
-//double Number = 5.323244343;
+int currentBalance = 1000;
 
-//long maxLongValue = long.MaxValue;
+WriteLine("Enter amount to withdraw : ");
 
-//const string name = "John";
+int amount = Convert.ToInt32(ReadLine());
 
-//char myChar = 'a';
-
-//bool myBool = true;
-
-//long allocates 64 bits in memory
-//ULong allocates 128 bits in memory
-
-//WriteLine("Enter Number 1");
-
-//int num1 = Convert.ToInt32(ReadLine());
-
-//WriteLine("Enter Number 2");
-
-//int num2 = Convert.ToInt32(ReadLine());
-
-//WriteLine(num1 + num2);
-//WriteLine(num1 - num2);
-//WriteLine(num1 * num2);
-//WriteLine(num1 / num2);
-
-//string firstName = ReadLine();
-//string lastName = ReadLine();
-
-//WriteLine("Hello, " + firstName + " " + lastName);
-
-//WriteLine("Enter a number : ");
-
-//int x = Convert.ToInt32(ReadLine());
-
-//WriteLine("Enter a symbol : ");
-
-//char symbol = Convert.ToChar(ReadLine());
-
-//WriteLine("Enter a number 2 : ");
-
-//int y = Convert.ToInt32(ReadLine());
-
-//if (symbol == '+')
-//{
-//    WriteLine(x+y);
-//}
-//else if (symbol == '-')
-//{
-//    WriteLine(x - y);
-//}
-//else if (symbol == '*')
-//{
-//    WriteLine(x * y);
-//}
-//else if (symbol == '/')
-//{
-//    WriteLine(x / y);
-//}
-//else 
-//{
-//    WriteLine("Invalid Symbol");
-//}
-
-//int currentBalance = 1000;
-
-//WriteLine("Enter amount to withdraw : ");
-
-//int amount = Convert.ToInt32(ReadLine());
-
-//if (amount <= currentBalance)
-//{
-//    WriteLine("Withdrawal Successful");
-//    currentBalance = currentBalance - amount;
-//    WriteLine("Current Balance : " + currentBalance);
-//}
-//else
-//{
-//    WriteLine("Insufficient Funds");
-//}
+if (amount <= currentBalance)
+{
+    WriteLine("Withdrawal Successful");
+    currentBalance = currentBalance - amount;
+    WriteLine("Current Balance : " + currentBalance);
+}
+else
+{
+    WriteLine("Insufficient Funds");
+}
 
 WriteLine("Enter your age : ");
 int age = Convert.ToInt32(ReadLine());
