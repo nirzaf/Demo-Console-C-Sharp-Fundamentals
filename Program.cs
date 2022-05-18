@@ -20,6 +20,8 @@ long maxLongValue = long.MaxValue;
 
 const string name = "John";
 
+WriteLine(name);
+
 char myChar = 'a';
 
 bool myBool = true;
