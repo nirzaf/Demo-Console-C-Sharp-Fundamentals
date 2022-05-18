@@ -44,11 +44,9 @@ public static class Numbers
 {
     public static void Print(int number)
     {
-        if (number <= 10)
-        {
-            WriteLine(number);
-            Print(number + 1);
-        }
+        if (number > 10) return;
+        WriteLine(number);
+        Print(number + 1);
     }
 }
 
