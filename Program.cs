@@ -1,45 +1,45 @@
 ﻿using static System.Console;
 
+WriteLine("Hello, World!");
 
-//WriteLine("Hello, World!");
+string myName;
 
-//string myName;
+int number = 34;
 
-//int number = 34;
+int maxNum = int.MaxValue;
 
-//int maxNum = int.MaxValue;
+WriteLine(maxNum);
 
-//WriteLine(maxNum);
+float maxFloatValue = float.MaxValue;
 
-//float maxFloatValue = float.MaxValue;
+WriteLine(maxFloatValue);
 
-//WriteLine(maxFloatValue);
+double Number = 5.323244343;
 
-//double Number = 5.323244343;
+long maxLongValue = long.MaxValue;
 
-//long maxLongValue = long.MaxValue;
+const string name = "John";
 
-//const string name = "John";
+char myChar = 'a';
 
-//char myChar = 'a';
+bool myBool = true;
 
-//bool myBool = true;
+// A long value is stored in 64-bit,with its first digit to show if it's a positive/negative number.
+// while ulong is also 64-bit, with all 64 bit to store the number.
+// so the maximum of ulong is 2(64)-1, while long is 2(63)-1
 
-//long allocates 64 bits in memory
-//ULong allocates 128 bits in memory
+WriteLine("Enter Number 1");
 
-//WriteLine("Enter Number 1");
+int num1 = Convert.ToInt32(ReadLine());
 
-//int num1 = Convert.ToInt32(ReadLine());
+WriteLine("Enter Number 2");
 
-//WriteLine("Enter Number 2");
+int num2 = Convert.ToInt32(ReadLine());
 
-//int num2 = Convert.ToInt32(ReadLine());
-
-//WriteLine(num1 + num2);
-//WriteLine(num1 - num2);
-//WriteLine(num1 * num2);
-//WriteLine(num1 / num2);
+WriteLine(num1 + num2);
+WriteLine(num1 - num2);
+WriteLine(num1 * num2);
+WriteLine(num1 / num2);
 
 string firstName = ReadLine();
 string lastName = ReadLine();
