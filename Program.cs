@@ -16,10 +16,10 @@ int y = Convert.ToInt32(ReadLine());
 switch (symbol)
 {
     case '+':
-        WriteLine(x + y);
+        WriteLine("Answer is : " + (x + y));
         break;
     case '-':
-        WriteLine(x - y);
+        WriteLine("Answer is :" + (x - y));
         break;
     case '*':
         WriteLine(x * y);
