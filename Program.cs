@@ -56,7 +56,7 @@ int age = Convert.ToInt32(ReadLine());
 WriteLine("Enter your marks");
 int marks = Convert.ToInt32(ReadLine());;
 
-if (age > 18 || marks > 50)
+if (age > 18 || marks > 50 && age != 0)
 {
     WriteLine("You are eligible for Scholarship");
 }
