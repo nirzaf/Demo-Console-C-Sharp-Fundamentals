@@ -1,0 +1,7 @@
+{
+  "runOnStart": true,
+  "updateInterval": 200,
+  "logging": true,
+  "silent": true,
+  "commitMessage": "--- pushed by Mohamed Fazrin -mfmfazrin1986@ ---"
+}
