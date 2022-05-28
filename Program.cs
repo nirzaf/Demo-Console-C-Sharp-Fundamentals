@@ -1,29 +1,28 @@
 ﻿using static System.Console;
+using static System.String;
 
-//Create a while loop to print numbers from 1 to 10
-int number = 1;
-WriteLine("Printing numbers from 1 to 10 from while loop");
-while (number <= 10)
-{
-    WriteLine(number);
-    number++;
-}
+//Create an Array of Students Marks with 10 elements 
+int[] marks = {45, 55, 65, 75, 56, 75, 79, 54, 59, 67};
 
-//Create a Do while loop to print numbers from 1 to 10
-int count = 1;
-WriteLine("Printing numbers from 1 to 10 from do while loop");
-do
-{
-    WriteLine(count);
-    count++;
-} while (count <= 10);
+//find all duplicated values in marks array and assigned to a new array using for loop
 
-//Create a for loop to print numbers from 1 to 10
-WriteLine("Printing numbers from 1 to 10 from for loop");
-for (int i = 1; i <= 10; i++)
-{
-    WriteLine(i);
-}
+var duplicates = marks.GroupBy(x => x)
+    .Where(g => g.Count() > 1)
+    .Select(y => new { Item = y.Key, Count = y.Count() })
+    .ToList();
+
+WriteLine(Join("\n", duplicates));
+
+// foreach (var items in duplicates)
+// {
+//     WriteLine(items);
+// }
+
+ReadLine();
+
+
+
+
 
 
 
