@@ -1,38 +1,62 @@
 ﻿using static System.Console;
-using static System.String;
 
-int[,] threeArray = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+//List<string> names = new() { "John", "Paul", "George", "Ringo" };
 
-WriteLine(threeArray[1, 0]);
-WriteLine(threeArray[1, 1]);
+//foreach (var name in names)
+//{
+//    WriteLine(name);
+//}
 
-string[] names = new string[] { "John", "Paul", "George", "Ringo" };
+//WriteLine("------------------");
+//names.Add("Fazrin");
+//names.ForEach(WriteLine);
 
+//List<string> addedNames = new() { "Mohamed", "Abdul", "Ahmed" };
+//names.AddRange(addedNames);
 
-//Create an Array of Students Marks with 10 elements 
-int[] marks = { 45, 55, 65, 75, 56, 75, 79, 54, 59, 67 };
+//names.ForEach(WriteLine);
 
-//find duplicated value in marks array and print it using for loop
-for (int i = 0; i < marks.Length; i++)
+List<Student> students = new()
 {
-    for (int j = i + 1; j < marks.Length; j++)
-    {
-        if (marks[i] == marks[j])
-        {
-            WriteLine($"{marks[i]} is duplicated");
-        }
-    }
-}
+    new() { Name = "John", Age = 18, City = "London", Grade = 10 },
+    new() { Name = "Paul", Age = 20 , City = "Paris", Grade = 12 },
+    new() { Name = "George", Age = 21, City = "Berlin", Grade = 11 },
+    new() { Name = "Ringo", Age = 25, City = "Liverpool", Grade = 9 },
+    new() { Name = "Fazrin", Age = 22, City = "Manchester", Grade = 8 }
+};
+
+//var filteredStudents = students.Where(c => c.Age >= 21);
+
+//foreach (var stu in filteredStudents)
+//{
+//    WriteLine(" Name: " + stu.Name + " Age: " + stu.Age + " City: " + stu.City + " Grade: " + stu.Grade);
+//}
+
+//foreach (var stu in students)
+//{
+//    WriteLine(" Name: " + stu.Name +" Age: " +stu.Age + " City: " + stu.City + " Grade: "+ stu.Grade );
+//}
 
 
-var duplicates = marks.GroupBy(x => x)
-    .Where(g => g.Count() > 1)
-    .Select(y => new { Item = y.Key, Count = y.Count() })
-    .ToList();
 
-WriteLine(Join("\n", duplicates));
+Tuple<int, string, string> person1 = new(1, "Steve", "Jobs");
+Tuple<int, string, string> person2 = new(2, "Bill", "Gates");
+Tuple<int, string, string> person3 = new(3, "Satya", "Nadella");
+Tuple<int, string, string> person4 = new(4, "Elon", "Musk");
+Tuple<int, string, string> person5 = new(5, "Mohamed", "Fazrin");
+
+WriteLine(person1.Item1);
+WriteLine(person1.Item2);
+WriteLine(person4.Item3);
 
 ReadLine();
+record Student
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+    public string City { get; set; }
+    public int Grade { get; set; }
+}
 
 
 
