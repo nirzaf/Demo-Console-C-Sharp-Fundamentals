@@ -8,7 +8,6 @@ WriteLine(threeArray[1, 1]);
 
 string[] names = new string[] { "John", "Paul", "George", "Ringo" };
 
-
 //Create an Array of Students Marks with 10 elements 
 int[] marks = { 45, 55, 65, 75, 56, 75, 79, 54, 59, 67 };
 
