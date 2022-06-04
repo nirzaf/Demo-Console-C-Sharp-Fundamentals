@@ -1,0 +1,102 @@
+Index: Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\nusing Demo_Console_C_Sharp_Fundamentals;\r\nusing static System.Console;\r\n\r\n//Initiating a new instance of the vehicle class\r\nVehicle car = new ();\r\n\r\n//Object name is car\r\ncar.VehicleNumber = 5102;\r\ncar.VehicleMaxSpeed = 100;\r\ncar.VehicleColor = \"Black\";\r\ncar.VehicleType = \"Auto\";\r\ncar.IsVehicleRegistered = true;\r\n\r\n//WriteLine(car.VehicleNumber);\r\n\r\ncar.PrintVehicleDetails();\r\ncar.ChangeVehicleType(\"Manual\");\r\nWriteLine(\"-----------------------------------\");\r\ncar.PrintVehicleDetails();\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Program.cs b/Program.cs
+--- a/Program.cs	
++++ b/Program.cs	
+@@ -1,21 +1,15 @@
+-
+ using Demo_Console_C_Sharp_Fundamentals;
+ using static System.Console;
+ 
+-//Initiating a new instance of the vehicle class
+-Vehicle car = new ();
+-
+-//Object name is car
+-car.VehicleNumber = 5102;
+-car.VehicleMaxSpeed = 100;
+-car.VehicleColor = "Black";
+-car.VehicleType = "Auto";
+-car.IsVehicleRegistered = true;
++Calculator cal = new();
+ 
+-//WriteLine(car.VehicleNumber);
+-
+-car.PrintVehicleDetails();
+-car.ChangeVehicleType("Manual");
+-WriteLine("-----------------------------------");
+-car.PrintVehicleDetails();
++WriteLine("Enter a number one: ");
++var num1 = Convert.ToDouble(ReadLine());
++WriteLine("Enter the symbol: ");
++cal.symbol = ReadLine();
++WriteLine("Enter a number two: ");
++var num2 = Convert.ToDouble(ReadLine());
++WriteLine("Answer is: " + cal.Calculate(num1, num2));
++// var result = cal.Calculate(num1, num2);
++// WriteLine(result);
+ 
+Index: Vehicle.cs
+===================================================================
+diff --git a/Vehicle.cs b/Vehicle.cs
+deleted file mode 100644
+--- a/Vehicle.cs	
++++ /dev/null	
+@@ -1,28 +0,0 @@
+-using static System.Console;
+-
+-namespace Demo_Console_C_Sharp_Fundamentals
+-{
+-    public class Vehicle
+-    {
+-        public int VehicleNumber { get; set; }
+-        public string VehicleType { get; set; }
+-        public string VehicleColor { get; set; }
+-        public double VehicleMaxSpeed { get; set; }
+-        public bool IsVehicleRegistered { get; set; }
+-
+-        public void PrintVehicleDetails()
+-        {
+-            WriteLine("Vehicle Number: {0}", VehicleNumber);
+-            WriteLine("Vehicle Type: {0}", VehicleType);
+-            WriteLine("Vehicle Color: {0}", VehicleColor);
+-            WriteLine("Vehicle Max Speed: {0}", VehicleMaxSpeed);
+-            WriteLine("Is Vehicle Registered: {0}", IsVehicleRegistered);
+-        }
+-
+-        public void ChangeVehicleType(string type)
+-        {
+-            VehicleType = type;
+-        }
+-
+-    }
+-}
+Index: Calculator.cs
+===================================================================
+diff --git a/Calculator.cs b/Calculator.cs
+new file mode 100644
+--- /dev/null	
++++ b/Calculator.cs	
+@@ -0,0 +1,17 @@
++namespace Demo_Console_C_Sharp_Fundamentals;
++
++public class Calculator
++{
++    public string? symbol { get; set; }
++    public double Calculate(double a, double b)
++    {
++        return symbol switch
++        {
++            "+" => a + b,
++            "-" => a - b,
++            "*" => a * b,
++            "/" => a / b,
++            _ => 0
++        };
++    }
++}
+\ No newline at end of file
