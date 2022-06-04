@@ -14,7 +14,6 @@ car.IsVehicleRegistered = true;
 
 //WriteLine(car.VehicleNumber);
 
-
 car.PrintVehicleDetails();
 car.ChangeVehicleType("Manual");
 WriteLine("-----------------------------------");
