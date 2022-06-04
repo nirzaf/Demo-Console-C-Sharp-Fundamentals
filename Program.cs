@@ -1,5 +1,4 @@
-﻿
-// string myName;
+﻿// string myName;
 //
 // int number = 34;
 //

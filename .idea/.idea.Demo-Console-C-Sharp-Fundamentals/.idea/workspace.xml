@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +52,7 @@
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "node.js.selected.package.tslint": "(autodetect)"
@@ -80,6 +81,14 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }">
+      <created>1654342794352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654342794352</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
