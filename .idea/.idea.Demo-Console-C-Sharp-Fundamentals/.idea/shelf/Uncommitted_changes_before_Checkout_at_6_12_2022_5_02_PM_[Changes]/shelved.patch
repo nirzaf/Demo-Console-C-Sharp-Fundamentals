@@ -1,0 +1,272 @@
+Index: Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// string myName;\r\n//\r\n// int number = 34;\r\n//\r\n// int maxNum = int.MaxValue;\r\n//\r\n// Console.WriteLine(maxNum);\r\n//\r\n// float maxFloatValue = float.MaxValue;\r\n//\r\n// Console.WriteLine(maxFloatValue);\r\n//\r\n// double Number = 5.323244343;\r\n//\r\n// long maxLongValue = long.MaxValue;\r\n//\r\n// decimal BigNumber = 7235657656; //decimal is a number with a decimal point with 128 bit and upto 28 digits \r\n//\r\n// const string name = \"John\"; //256 bit   \r\n//\r\n// char myChar = 'a';  // + , -, /, *, %, \r\n//\r\n// bool myBool = true;\r\n\r\n// A long value is stored in 64-bit,with its first digit to show if it's a positive/negative number.\r\n// while ulong is also 64-bit, with all 64 bit to store the number.\r\n// so the maximum of ulong is 2(64)-1, while long is 2(63)-1\r\n\r\n//WriteLine(\"Enter Number 1\");\r\n\r\n//int num1 = Convert.ToInt32(ReadLine());\r\n\r\n//WriteLine(\"Enter Number 2\");\r\n\r\n//int num2 = Convert.ToInt32(ReadLine());\r\n\r\n//WriteLine(num1 + num2);\r\n//WriteLine(num1 - num2);\r\n//WriteLine(num1 * num2);\r\n//WriteLine(num1 / num2);\r\n\r\n// Arrays\r\n// Lists\r\n// Dictionaries\r\n// Tuples\r\n// Enumerable\r\n\r\n\r\n// string[] names = { \"john\", \"jane\", \"joe\", \"Mohamed Fazrin\", \"Mohamed Farook\" };\r\n\r\n// int[] numbers = { 5, 52, 43, 34 };\r\n// Console.WriteLine(numbers[3]);\r\n\r\n//Sort the numbers array\r\n//Array.Sort(numbers);\r\n//Print the numbers array\r\n// foreach (int number in numbers)\r\n// {\r\n//     Console.WriteLine(number);\r\n// }\r\n\r\n//Console.WriteLine(\"1, 2, 3, 4, 5, 6, 7, 8, 9, 10\");\r\n\r\n//Print numbers from 1 to 10 using loop\r\n// for (int rishdha = 1; rishdha <= 1000; rishdha += 2)   \r\n// {\r\n//     Console.WriteLine(\"Number: \" + rishdha);\r\n// }\r\n\r\nint fazrin = 101;\r\nwhile (fazrin < 100)\r\n{\r\n    Console.WriteLine(\"My age is : \" + fazrin);\r\n    fazrin++;\r\n    if (fazrin == 91)\r\n    {\r\n        Console.WriteLine(\"Dead\");\r\n        break;\r\n    }\r\n}\r\n\r\ndo\r\n{\r\n    Console.WriteLine(\"Hello :\");\r\n    fazrin++;\r\n}while(fazrin<100);\r\n\r\n//Console.WriteLine(\"Dead\");\r\n\r\ndouble[] numbers2 = { 5.5, 52.5, 43.5, 34.5, 65.5, 76.5, 47.5, 38.5, 49.5, 410.5 };\r\n\r\nchar[] letters = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j' };\r\n\r\n\r\n\r\n\r\n//var name = names.Contains(\"jane\");\r\n\r\n//var myName = names.SingleOrDefault(c => c.Contains(\"Moh\"));\r\n\r\n// var familyNames = names.Where(c => c.Contains(\"Mohamed\"));\r\n//\r\n// foreach (var item in familyNames)\r\n// {\r\n//    Console.WriteLine(item);   \r\n// }\r\n\r\n\r\n\r\n//WriteLine(myName);\r\n\r\n\r\n//WriteLine(name);\r\n\r\n//names[3] = \"Mohamed\";\r\n\r\n//WriteLine(names[2]);\r\n\r\n//names[2] = \"Fazrin\";\r\n\r\n//WriteLine(names[2]);\r\n\r\n\r\n//int[] studentAges = new int[5];\r\n\r\n//studentAges[0] = 10;\r\n//studentAges[1] = 12;\r\n//studentAges[2] = 33;\r\n//studentAges[3] = 44;\r\n//studentAges[4] = 25;\r\n\r\n//foreach (int age in studentAges)\r\n//{ \r\n//    WriteLine(age);\r\n//}\r\n\r\nList<int> studentAgesList = new();\r\n\r\nstudentAgesList.Add(10);\r\nstudentAgesList.Add(12);\r\nstudentAgesList.Add(33);\r\nstudentAgesList.Add(33);\r\nstudentAgesList.Add(33);\r\nstudentAgesList.Add(33);\r\nstudentAgesList.Add(33);\r\nstudentAgesList.Add(44);\r\nstudentAgesList.Add(25);\r\n\r\n\r\nforeach (int age in studentAgesList)\r\n{\r\n    Console.WriteLine(age);\r\n}\r\n\r\nConsole.WriteLine(\"----------------\");\r\n\r\n//studentAgesList.Remove(33);\r\n//studentAgesList.RemoveAt(3);\r\n\r\nstudentAgesList.Insert(2, 1000);\r\n\r\nstudentAgesList.RemoveAll(x => x == 33);\r\n\r\n\r\nforeach (int age in studentAgesList)\r\n{\r\n    Console.WriteLine(age);\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Program.cs b/Program.cs
+--- a/Program.cs	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
++++ b/Program.cs	(date 1654355602000)
+@@ -67,7 +67,7 @@
+ //     Console.WriteLine("Number: " + rishdha);
+ // }
+ 
+-int fazrin = 101;
++int fazrin = 10;
+ while (fazrin < 100)
+ {
+     Console.WriteLine("My age is : " + fazrin);
+Index: .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1/shelved.patch
+===================================================================
+diff --git a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1/shelved.patch b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1/shelved.patch
+deleted file mode 100644
+--- a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1/shelved.patch	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
++++ /dev/null	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
+@@ -1,102 +0,0 @@
+-Index: Program.cs
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>\r\nusing Demo_Console_C_Sharp_Fundamentals;\r\nusing static System.Console;\r\n\r\n//Initiating a new instance of the vehicle class\r\nVehicle car = new ();\r\n\r\n//Object name is car\r\ncar.VehicleNumber = 5102;\r\ncar.VehicleMaxSpeed = 100;\r\ncar.VehicleColor = \"Black\";\r\ncar.VehicleType = \"Auto\";\r\ncar.IsVehicleRegistered = true;\r\n\r\n//WriteLine(car.VehicleNumber);\r\n\r\ncar.PrintVehicleDetails();\r\ncar.ChangeVehicleType(\"Manual\");\r\nWriteLine(\"-----------------------------------\");\r\ncar.PrintVehicleDetails();\r\n\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Program.cs b/Program.cs
+---- a/Program.cs	
+-+++ b/Program.cs	
+-@@ -1,21 +1,15 @@
+--
+- using Demo_Console_C_Sharp_Fundamentals;
+- using static System.Console;
+- 
+--//Initiating a new instance of the vehicle class
+--Vehicle car = new ();
+--
+--//Object name is car
+--car.VehicleNumber = 5102;
+--car.VehicleMaxSpeed = 100;
+--car.VehicleColor = "Black";
+--car.VehicleType = "Auto";
+--car.IsVehicleRegistered = true;
+-+Calculator cal = new();
+- 
+--//WriteLine(car.VehicleNumber);
+--
+--car.PrintVehicleDetails();
+--car.ChangeVehicleType("Manual");
+--WriteLine("-----------------------------------");
+--car.PrintVehicleDetails();
+-+WriteLine("Enter a number one: ");
+-+var num1 = Convert.ToDouble(ReadLine());
+-+WriteLine("Enter the symbol: ");
+-+cal.symbol = ReadLine();
+-+WriteLine("Enter a number two: ");
+-+var num2 = Convert.ToDouble(ReadLine());
+-+WriteLine("Answer is: " + cal.Calculate(num1, num2));
+-+// var result = cal.Calculate(num1, num2);
+-+// WriteLine(result);
+- 
+-Index: Vehicle.cs
+-===================================================================
+-diff --git a/Vehicle.cs b/Vehicle.cs
+-deleted file mode 100644
+---- a/Vehicle.cs	
+-+++ /dev/null	
+-@@ -1,28 +0,0 @@
+--using static System.Console;
+--
+--namespace Demo_Console_C_Sharp_Fundamentals
+--{
+--    public class Vehicle
+--    {
+--        public int VehicleNumber { get; set; }
+--        public string VehicleType { get; set; }
+--        public string VehicleColor { get; set; }
+--        public double VehicleMaxSpeed { get; set; }
+--        public bool IsVehicleRegistered { get; set; }
+--
+--        public void PrintVehicleDetails()
+--        {
+--            WriteLine("Vehicle Number: {0}", VehicleNumber);
+--            WriteLine("Vehicle Type: {0}", VehicleType);
+--            WriteLine("Vehicle Color: {0}", VehicleColor);
+--            WriteLine("Vehicle Max Speed: {0}", VehicleMaxSpeed);
+--            WriteLine("Is Vehicle Registered: {0}", IsVehicleRegistered);
+--        }
+--
+--        public void ChangeVehicleType(string type)
+--        {
+--            VehicleType = type;
+--        }
+--
+--    }
+--}
+-Index: Calculator.cs
+-===================================================================
+-diff --git a/Calculator.cs b/Calculator.cs
+-new file mode 100644
+---- /dev/null	
+-+++ b/Calculator.cs	
+-@@ -0,0 +1,17 @@
+-+namespace Demo_Console_C_Sharp_Fundamentals;
+-+
+-+public class Calculator
+-+{
+-+    public string? symbol { get; set; }
+-+    public double Calculate(double a, double b)
+-+    {
+-+        return symbol switch
+-+        {
+-+            "+" => a + b,
+-+            "-" => a - b,
+-+            "*" => a * b,
+-+            "/" => a / b,
+-+            _ => 0
+-+        };
+-+    }
+-+}
+-\ No newline at end of file
+Index: .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM__Changes_1.xml
+===================================================================
+diff --git a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM__Changes_1.xml b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM__Changes_1.xml
+deleted file mode 100644
+--- a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM__Changes_1.xml	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
++++ /dev/null	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1" date="1654337091155" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_4_2022_3_34_PM_[Changes]1/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 6/4/2022 3:34 PM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .vscode/tasks.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.vscode/tasks.json b/.vscode/tasks.json
+new file mode 100644
+--- /dev/null	(date 1655033422266)
++++ b/.vscode/tasks.json	(date 1655033422266)
+@@ -0,0 +1,41 @@
++{
++    "version": "2.0.0",
++    "tasks": [
++        {
++            "label": "build",
++            "command": "dotnet",
++            "type": "process",
++            "args": [
++                "build",
++                "${workspaceFolder}/Demo-Console-C-Sharp-Fundamentals.csproj",
++                "/property:GenerateFullPaths=true",
++                "/consoleloggerparameters:NoSummary"
++            ],
++            "problemMatcher": "$msCompile"
++        },
++        {
++            "label": "publish",
++            "command": "dotnet",
++            "type": "process",
++            "args": [
++                "publish",
++                "${workspaceFolder}/Demo-Console-C-Sharp-Fundamentals.csproj",
++                "/property:GenerateFullPaths=true",
++                "/consoleloggerparameters:NoSummary"
++            ],
++            "problemMatcher": "$msCompile"
++        },
++        {
++            "label": "watch",
++            "command": "dotnet",
++            "type": "process",
++            "args": [
++                "watch",
++                "run",
++                "--project",
++                "${workspaceFolder}/Demo-Console-C-Sharp-Fundamentals.csproj"
++            ],
++            "problemMatcher": "$msCompile"
++        }
++    ]
++}
+\ No newline at end of file
+Index: .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/projectSettingsUpdater.xml b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/projectSettingsUpdater.xml
+new file mode 100644
+--- /dev/null	(date 1655033462239)
++++ b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/projectSettingsUpdater.xml	(date 1655033462239)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RiderProjectSettingsUpdater">
++    <option name="vcsConfiguration" value="2" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .vscode/launch.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+new file mode 100644
+--- /dev/null	(date 1655033422266)
++++ b/.vscode/launch.json	(date 1655033422266)
+@@ -0,0 +1,26 @@
++{
++    "version": "0.2.0",
++    "configurations": [
++        {
++            // Use IntelliSense to find out which attributes exist for C# debugging
++            // Use hover for the description of the existing attributes
++            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
++            "name": ".NET Core Launch (console)",
++            "type": "coreclr",
++            "request": "launch",
++            "preLaunchTask": "build",
++            // If you have changed target frameworks, make sure to update the program path.
++            "program": "${workspaceFolder}/bin/Debug/net6.0/Demo-Console-C-Sharp-Fundamentals.dll",
++            "args": [],
++            "cwd": "${workspaceFolder}",
++            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
++            "console": "internalConsole",
++            "stopAtEntry": false
++        },
++        {
++            "name": ".NET Core Attach",
++            "type": "coreclr",
++            "request": "attach"
++        }
++    ]
++}
+\ No newline at end of file
+Index: .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoGeneratedRunConfigurationManager\">\r\n    <projectFile profileName=\"Demo-Console-C-Sharp-Fundamentals\">Demo-Console-C-Sharp-Fundamentals.csproj</projectFile>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ea608389-8e47-4acf-8905-0f0d2f1be08c\" name=\"Changes\" comment=\"//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"c-sharp-oop-concepts\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitToolBoxStore\">\r\n    <option name=\"projectConfigVersion\" value=\"5\" />\r\n    <option name=\"recentBranches\">\r\n      <RecentBranches>\r\n        <option name=\"branchesForRepo\">\r\n          <list>\r\n            <RecentBranchesForRepo>\r\n              <option name=\"branches\">\r\n                <list>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"c-sharp-data-types\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1654337092\" />\r\n                  </RecentBranch>\r\n                  <RecentBranch>\r\n                    <option name=\"branchName\" value=\"c-sharp-oop-concepts\" />\r\n                    <option name=\"lastUsedInstant\" value=\"1654337091\" />\r\n                  </RecentBranch>\r\n                </list>\r\n              </option>\r\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\r\n            </RecentBranchesForRepo>\r\n          </list>\r\n        </option>\r\n      </RecentBranches>\r\n    </option>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://diff.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n    <setting file=\"mock://diff.cs\" root0=\"SKIP_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Demo-Console-C-Sharp-Fundamentals\" type=\"LaunchSettings\" factoryName=\".NET Launch Settings Profile\" temporary=\"true\">\r\n      <option name=\"LAUNCH_PROFILE_PROJECT_FILE_PATH\" value=\"$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj\" />\r\n      <option name=\"LAUNCH_PROFILE_TFM\" value=\"net6.0\" />\r\n      <option name=\"LAUNCH_PROFILE_NAME\" value=\"Demo-Console-C-Sharp-Fundamentals\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <option name=\"USE_MONO\" value=\"0\" />\r\n      <option name=\"RUNTIME_ARGUMENTS\" value=\"\" />\r\n      <option name=\"GENERATE_APPLICATIONHOST_CONFIG\" value=\"1\" />\r\n      <option name=\"SHOW_IIS_EXPRESS_OUTPUT\" value=\"0\" />\r\n      <option name=\"SEND_DEBUG_REQUEST\" value=\"1\" />\r\n      <option name=\"ADDITIONAL_IIS_EXPRESS_ARGUMENTS\" value=\"\" />\r\n      <method v=\"2\">\r\n        <option name=\"Build\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\".NET Launch Settings Profile.Demo-Console-C-Sharp-Fundamentals\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task id=\"LOCAL-00001\" summary=\"//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }\">\r\n      <created>1654342794352</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1654342794352</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"DotNet Breakpoints\">\r\n          <url>file://$PROJECT_DIR$/Program.cs</url>\r\n          <line>90</line>\r\n          <properties documentPath=\"C:\\Users\\Fazrin\\OneDrive\\Documents\\GitHub\\Demo-Console-C-Sharp-Fundamentals\\Program.cs\" initialLine=\"84\" containingFunctionPresentation=\"\">\r\n            <startOffsets>\r\n              <option value=\"1867\" />\r\n            </startOffsets>\r\n            <endOffsets>\r\n              <option value=\"1950\" />\r\n            </endOffsets>\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"11\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml
+--- a/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml	(revision 3345a5ac99918eec5674500ba6e978988807bfdb)
++++ b/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml	(date 1655033462203)
+@@ -53,11 +53,11 @@
+     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "node.js.selected.package.tslint": "(autodetect)"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager">
+     <configuration name="Demo-Console-C-Sharp-Fundamentals" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" />

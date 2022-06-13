@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +55,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Vehicle.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -120,6 +124,7 @@
       <workItem from="1655043915155" duration="135000" />
       <workItem from="1655049959099" duration="123000" />
       <workItem from="1655096490458" duration="1507000" />
+      <workItem from="1655134512663" duration="429000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -135,7 +140,35 @@
       <option name="project" value="LOCAL" />
       <updated>1655098736751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="VehicleNumber">
+      <created>1655134758637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655134758637</updated>
+    </task>
+    <task id="LOCAL-00005" summary="VehicleNumber">
+      <created>1655134777812</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655134777812</updated>
+    </task>
+    <task id="LOCAL-00006" summary="//Console.WriteLine($&quot;{(int)Math.Pow(2, 3)}&quot;);">
+      <created>1655134872114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655134872114</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};">
+      <created>1655134903506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655134903506</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +192,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
     <MESSAGE value="car.VehicleColor = &quot;Black&quot;;" />
-    <option name="LAST_COMMIT_MESSAGE" value="car.VehicleColor = &quot;Black&quot;;" />
+    <MESSAGE value="VehicleNumber" />
+    <MESSAGE value="//Console.WriteLine($&quot;{(int)Math.Pow(2, 3)}&quot;);" />
+    <MESSAGE value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
