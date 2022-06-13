@@ -4,9 +4,15 @@
 
 Vehicle v1 = new()
 {
-    VehicleType = "Car"
+    VehicleNumber = 12121,
+    VehicleType = "Car",
+    VehicleColor = "Red",
+    VehicleMaxSpeed = 150,
+    IsVehicleRegistered = true
 };
 
 v1.ChangeVehicleType("Bus");
 
-Console.WriteLine(v1.VehicleType);
+v1.PrintVehicleDetails();
+
+//Console.WriteLine(v1.VehicleType);
