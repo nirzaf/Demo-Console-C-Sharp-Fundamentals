@@ -1,21 +1,12 @@
-﻿
-using Demo_Console_C_Sharp_Fundamentals;
-using static System.Console;
+﻿using Demo_Console_C_Sharp_Fundamentals;
 
-//Initiating a new instance of the vehicle class
-Vehicle car = new ();
+//Console.WriteLine($"{(int)Math.Pow(2, 3)}");
 
-//Object name is car
-car.VehicleNumber = 5102;
-car.VehicleMaxSpeed = 100;
-car.VehicleColor = "Black";
-car.VehicleType = "Auto";
-car.IsVehicleRegistered = true;
+Vehicle v1 = new()
+{
+    VehicleType = "Car"
+};
 
-//WriteLine(car.VehicleNumber);
+v1.ChangeVehicleType("Bus");
 
-car.PrintVehicleDetails();
-car.ChangeVehicleType("Manual");
-WriteLine("-----------------------------------");
-car.PrintVehicleDetails();
-
+Console.WriteLine(v1.VehicleType);
