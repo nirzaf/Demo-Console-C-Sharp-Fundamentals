@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +21,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="c-sharp-data-types" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -30,12 +36,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="c-sharp-arrays" />
-                    <option name="lastUsedInstant" value="1653710929" />
+                    <option name="branchName" value="c-sharp-classes-and-objects" />
+                    <option name="lastUsedInstant" value="1655033581" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1653710928" />
+                    <option name="branchName" value="c-sharp-data-types" />
+                    <option name="lastUsedInstant" value="1654337092" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="c-sharp-oop-concepts" />
+                    <option name="lastUsedInstant" value="1654337091" />
                   </RecentBranch>
                 </list>
               </option>
@@ -46,33 +56,33 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/974fa14c57bab8fe29f1bddd39b1a6548b9cc8cf9e0ef5e670c2407a56d9/String.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29mGVCW9juWxPvbhufsHn0Yi2St" />
+  <component name="ProjectId" id="2ATVCkipUXONaLWW8cISNDdqeEr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Demo-Console-C-Sharp-Fundamentals" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+    <configuration name="Demo-Console-C-Sharp-Fundamentals" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="Demo-Console-C-Sharp-Fundamentals" />
@@ -87,28 +97,31 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Launch Settings Profile.Demo-Console-C-Sharp-Fundamentals" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Fazrin\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
-      <created>1653710873305</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1653710873305</updated>
-      <workItem from="1653710881381" duration="1454000" />
-      <workItem from="1653724590018" duration="116000" />
-      <workItem from="1653724777580" duration="1440000" />
-    </task>
-    <task id="LOCAL-00001" summary="WriteLine(items);">
-      <created>1653712186156</created>
+    <task id="LOCAL-00001" summary="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }">
+      <created>1654342794352</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1653712186156</updated>
+      <updated>1654342794352</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
+      <created>1655033447353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655033447353</updated>
+      <workItem from="1655033453705" duration="152000" />
+      <workItem from="1655043915155" duration="135000" />
+      <workItem from="1655049959099" duration="123000" />
+      <workItem from="1655096490458" duration="1265000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -130,8 +143,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="WriteLine(items);" />
-    <option name="LAST_COMMIT_MESSAGE" value="WriteLine(items);" />
+    <MESSAGE value="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Print numbers from 1 to 10 using loop&#10;// for (int rishdha = 1; rishdha &lt;= 1000; rishdha += 2)   &#10;// {&#10;//     Console.WriteLine(&quot;Number: &quot; + rishdha);&#10;// }" />
   </component>
 </project>
