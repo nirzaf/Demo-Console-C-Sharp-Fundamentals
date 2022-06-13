@@ -4,6 +4,18 @@ namespace Demo_Console_C_Sharp_Fundamentals
 {
     public class Vehicle
     {
+        public Vehicle()
+        {
+        }
+        public Vehicle(int vehicleNumber, string vehicleType, string vehicleColor, double vehicleMaxSpeed, bool isVehicleRegistered)
+        {
+            VehicleNumber = vehicleNumber;
+            VehicleType = vehicleType;
+            VehicleColor = vehicleColor;
+            VehicleMaxSpeed = vehicleMaxSpeed;
+            IsVehicleRegistered = isVehicleRegistered;
+        }
+
         public int VehicleNumber { get; set; }
         public string VehicleType { get; set; }
         public string VehicleColor { get; set; }
