@@ -1,35 +1,16 @@
-﻿using static System.Console;
+﻿using Demo_Console_C_Sharp_Fundamentals;
 
-//Create a while loop to print numbers from 1 to 10
-int number = 1;
-WriteLine("Printing numbers from 1 to 10 from while loop");
-while (number <= 10)
+Vehicle v1 = new()
 {
-    WriteLine(number);
-    number++;
-}
+    VehicleNumber = 12121,
+    VehicleType = "Car",
+    VehicleColor = "Red",
+    VehicleMaxSpeed = 150,
+    IsVehicleRegistered = true
+};
 
-//Create a Do while loop to print numbers from 1 to 10
-int count = 1;
-WriteLine("Printing numbers from 1 to 10 from do while loop");
-do
-{
-    WriteLine(count);
-    count++;
-} while (count <= 10);
+v1.ChangeVehicleType("Bus");
 
-//Create a for loop to print numbers from 1 to 10
-WriteLine("Printing numbers from 1 to 10 from for loop");
-for (int i = 1; i <= 10; i++)
-{
-    WriteLine(i);
-}
+v1.PrintVehicleDetails();
 
-
-
-
-
-
-
-
-
+//Console.WriteLine(v1.VehicleType);
