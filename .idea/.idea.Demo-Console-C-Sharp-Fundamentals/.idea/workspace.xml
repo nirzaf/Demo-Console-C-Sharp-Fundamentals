@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="&#10;string[] names = new string[] { &quot;John&quot;, &quot;Paul&quot;, &quot;George&quot;, &quot;Ringo&quot; };" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +110,7 @@
       <workItem from="1653710881381" duration="1454000" />
       <workItem from="1653927758799" duration="595000" />
       <workItem from="1653963582839" duration="1828000" />
-      <workItem from="1653966090104" duration="2223000" />
+      <workItem from="1653966090104" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="WriteLine(items);">
       <created>1653712186156</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653978909988</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="https://github.com/amantinband/throw.git">
+      <created>1653981970114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653981970114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="WriteLine(items);" />
     <MESSAGE value="&#10;string[] names = new string[] { &quot;John&quot;, &quot;Paul&quot;, &quot;George&quot;, &quot;Ringo&quot; };" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;string[] names = new string[] { &quot;John&quot;, &quot;Paul&quot;, &quot;George&quot;, &quot;Ringo&quot; };" />
+    <MESSAGE value="https://github.com/amantinband/throw.git" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://github.com/amantinband/throw.git" />
   </component>
 </project>
