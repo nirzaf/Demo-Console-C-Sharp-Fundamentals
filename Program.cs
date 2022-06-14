@@ -1,5 +1,4 @@
-﻿using Demo_Console_C_Sharp_Fundamentals;
-var input = Console.ReadLine();
+﻿var input = Console.ReadLine();
 MultiplicationTable(Convert.ToInt32(input));
 
 /*
