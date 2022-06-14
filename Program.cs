@@ -1,8 +1,8 @@
 ﻿using Demo_Console_C_Sharp_Fundamentals;
+using static System.Console;
 
 
-var input = Console.ReadLine();
-
+var input = ReadLine();
 MultiplicationTable(Convert.ToInt32(input));
 
 /*
@@ -12,10 +12,20 @@ MultiplicationTable(Convert.ToInt32(input));
 
 static void MultiplicationTable(int n)
 {
-    for(int i=1; i<=n; i++)
+    int j,i;
+    Write("\n\n");
+    Write("Display the multiplication table vertically from 1 to n:\n");
+    Write("---------------------------------------------------------");
+    Write("\n\n");
+    Write("Input upto the table number starting from 1 : ");
+    Write("Multiplication table from 1 to {0} \n",n);
+    for(i=1;i<=10;i++)
     {
-        int ans = 1 * i;
-        Console.WriteLine("{0} X {1} = {2}", i, 1, ans);
+        for(j=1;j<=n;j++)
+        {
+            Write(j <= n - 1 ? "{0}x{1} = {2}, " : "{0}x{1} = {2}", j, i, i * j);
+        }
+        Write("\n");
     }
 }
 
