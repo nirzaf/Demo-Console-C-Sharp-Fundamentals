@@ -20,13 +20,13 @@ static void MultiplicationTable(int n)
     {
         for(j=1;j<=n;j++)
         {
-            if (j<=n-1)
+            if (j<n)
             {
-                Console.Write("{0}x{1} = {2}, ",j,i,i*j);
+                Console.Write("{0} X {1} = {2}, ",j,i,i*j);
             }
             else
             {
-                Console.Write("{0}x{1} = {2}",j,i,i*j);
+                Console.Write("{0} X {1} = {2}",j,i,i*j);
             }
         }
         Console.Write("\n");

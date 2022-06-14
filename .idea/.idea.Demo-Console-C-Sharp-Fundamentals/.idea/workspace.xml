@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="using static System.Console;">
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,10 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -125,7 +130,7 @@
       <workItem from="1655096490458" duration="1507000" />
       <workItem from="1655134512663" duration="429000" />
       <workItem from="1655175881124" duration="606000" />
-      <workItem from="1655216227272" duration="1255000" />
+      <workItem from="1655216227272" duration="4211000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -183,7 +188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655217300759</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="using static System.Console;">
+      <created>1655217544534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655217544534</updated>
+    </task>
+    <task id="LOCAL-00011" summary="using static System.Console;">
+      <created>1655217715654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655217715654</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);">
+      <created>1655223885692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655223885692</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,9 +238,27 @@
     <MESSAGE value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
     <MESSAGE value="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}" />
     <MESSAGE value="using static System.Console;" />
-    <option name="LAST_COMMIT_MESSAGE" value="using static System.Console;" />
+    <MESSAGE value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
+    <option name="LAST_COMMIT_MESSAGE" value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>31</line>
+          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="31" containingFunctionPresentation="local function 'MultiplicationTable'">
+            <startOffsets>
+              <option value="905" />
+            </startOffsets>
+            <endOffsets>
+              <option value="925" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />
