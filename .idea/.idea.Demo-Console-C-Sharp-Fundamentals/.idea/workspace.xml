@@ -7,8 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="using static System.Console;">
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +54,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -125,7 +125,7 @@
       <workItem from="1655096490458" duration="1507000" />
       <workItem from="1655134512663" duration="429000" />
       <workItem from="1655175881124" duration="606000" />
-      <workItem from="1655216227272" duration="925000" />
+      <workItem from="1655216227272" duration="1255000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655216809912</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="using static System.Console;">
+      <created>1655217300759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655217300759</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +211,8 @@
     <MESSAGE value="//Console.WriteLine($&quot;{(int)Math.Pow(2, 3)}&quot;);" />
     <MESSAGE value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
     <MESSAGE value="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}" />
-    <option name="LAST_COMMIT_MESSAGE" value="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}" />
+    <MESSAGE value="using static System.Console;" />
+    <option name="LAST_COMMIT_MESSAGE" value="using static System.Console;" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

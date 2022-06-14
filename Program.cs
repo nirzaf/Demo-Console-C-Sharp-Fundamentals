@@ -1,14 +1,8 @@
 ﻿using Demo_Console_C_Sharp_Fundamentals;
 using static System.Console;
 
-
 var input = ReadLine();
 MultiplicationTable(Convert.ToInt32(input));
-
-/*
- Write a program in C# to display the multiplication table
- vertically from 1 to n
- */
 
 static void MultiplicationTable(int n)
 {
@@ -28,7 +22,6 @@ static void MultiplicationTable(int n)
         Write("\n");
     }
 }
-
 
 Vehicle v1 = new()
 {
