@@ -20,24 +20,19 @@ static void MultiplicationTable(int n)
     {
         for(j=1;j<=n;j++)
         {
-            Console.Write(j <= n - 1 ? "{0}x{1} = {2}, " : "{0}x{1} = {2}", j, i, i * j);
+            if (j<=n-1)
+            {
+                Console.Write("{0}x{1} = {2}, ",j,i,i*j);
+            }
+            else
+            {
+                Console.Write("{0}x{1} = {2}",j,i,i*j);
+            }
         }
         Console.Write("\n");
     }
 }
 
 
-Vehicle v1 = new()
-{
-    VehicleNumber = 12121,
-    VehicleType = "Car",
-    VehicleColor = "Red",
-    VehicleMaxSpeed = 150,
-    IsVehicleRegistered = true
-};
+Console.ReadKey();
 
-v1.ChangeVehicleType("Bus");
-
-v1.PrintVehicleDetails();
-
-//Console.WriteLine(v1.VehicleType);
