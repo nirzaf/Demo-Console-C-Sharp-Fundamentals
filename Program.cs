@@ -19,15 +19,7 @@ foreach (var a in prime)
 //Filter int array and return only prime numbers in an array
 static int[] FilterPrimeNumbersFromIntArray(int[] arr)
 {
-    List<int> primeNumbers = new();
-    for (int i = 0; i < arr.Length; i++)
-    {
-        if (IsPrime(arr[i]))
-        {
-            primeNumbers.Add(arr[i]);
-        }
-    }
-    return primeNumbers.ToArray();
+    return arr.Where(IsPrime).ToArray();
 }
 
 static bool IsPrime(int number)
