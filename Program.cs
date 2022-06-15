@@ -6,6 +6,13 @@ MultiplicationTable(Convert.ToInt32(input));
  vertically from 1 to n
  */
 
+//Filter int array and return only prime numbers in an array
+static int[] FilterPrimeNumbersFromIntArray(int[] arr)
+{
+    
+}
+
+
 static void MultiplicationTable(int n)
 {
     int j,i;
@@ -31,7 +38,6 @@ static void MultiplicationTable(int n)
         Console.Write("\n");
     }
 }
-
 
 Console.ReadKey();
 
