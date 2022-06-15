@@ -1,8 +1,6 @@
 ﻿var input = Console.ReadLine();
 MultiplicationTable(Convert.ToInt32(input));
 
-int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
-
 /*
  Write a program in C# to display the multiplication table
  vertically from 1 to n
@@ -11,7 +9,7 @@ int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
 //Filter int array and return only prime numbers in an array
 static int[] FilterPrimeNumbersFromIntArray(int[] arr)
 {
-    List<int> primeNumbers = new();
+    List<int> primeNumbers = new List<int>();
     for (int i = 0; i < arr.Length; i++)
     {
         if (IsPrime(arr[i]))
