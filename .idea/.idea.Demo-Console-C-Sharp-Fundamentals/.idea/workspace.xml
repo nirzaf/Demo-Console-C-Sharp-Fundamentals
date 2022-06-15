@@ -8,7 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-15-5-2022-21-21-57.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <workItem from="1655134512663" duration="429000" />
       <workItem from="1655175881124" duration="606000" />
       <workItem from="1655216227272" duration="4775000" />
-      <workItem from="1655306907354" duration="445000" />
+      <workItem from="1655306907354" duration="1191000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
