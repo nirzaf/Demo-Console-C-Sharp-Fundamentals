@@ -9,31 +9,8 @@ MultiplicationTable(Convert.ToInt32(input));
 //Filter int array and return only prime numbers in an array
 static int[] FilterPrimeNumbersFromIntArray(int[] arr)
 {
-    List<int> primeNumbers = new List<int>();
-    for (int i = 0; i < arr.Length; i++)
-    {
-        if (IsPrime(arr[i]))
-        {
-            primeNumbers.Add(arr[i]);
-        }
-    }
-    return primeNumbers.ToArray();
-}
-
-int bool IsPrime(int number)
-{
-    if (number == 1)
-    {
-        return false;
-    }
-    for (int i = 2; i < number; i++)
-    {
-        if (number % i == 0)
-        {
-            return false;
-        }
-    }
-    return true;
+    
+    
 }
 
 

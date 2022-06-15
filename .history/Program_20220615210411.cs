@@ -20,21 +20,7 @@ static int[] FilterPrimeNumbersFromIntArray(int[] arr)
     return primeNumbers.ToArray();
 }
 
-int bool IsPrime(int number)
-{
-    if (number == 1)
-    {
-        return false;
-    }
-    for (int i = 2; i < number; i++)
-    {
-        if (number % i == 0)
-        {
-            return false;
-        }
-    }
-    return true;
-}
+int bool IsPrime()
 
 
 static void MultiplicationTable(int n)
