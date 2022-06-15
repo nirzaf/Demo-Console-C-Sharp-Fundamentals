@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Wed Jun 15 2022 21:06:51 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml
+* Program.cs
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
