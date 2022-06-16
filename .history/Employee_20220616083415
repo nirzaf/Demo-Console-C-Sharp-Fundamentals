@@ -34,7 +34,7 @@ public class Employee
         return Salary + Overtime * WorkHours;
     }
 
-    public  string ToString()
+    public override string ToString()
     {
         return $"{EmployeeId} {FirstName} {LastName} {Email} {PhoneNumber} {JobTitle} {Department} {OfficeLocation} {Salary} {Overtime} {WorkHours}";
     }
