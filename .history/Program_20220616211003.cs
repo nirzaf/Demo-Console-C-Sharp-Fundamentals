@@ -1,7 +1,5 @@
 ﻿using Demo_Console_C_Sharp_Fundamentals;
 
-Hashtable<Student> students = new Hashtable<Student>();
-
 
 
 // var input = Console.ReadLine();
