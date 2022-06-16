@@ -39,6 +39,5 @@ public class Employee
         return $"{EmployeeId} {FirstName} {LastName} {Email} {PhoneNumber} {JobTitle} {Department} {OfficeLocation} {Salary} {Overtime} {WorkHours}";
     }
 
-
     
 }
