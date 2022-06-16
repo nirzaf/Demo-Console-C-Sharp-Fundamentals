@@ -18,8 +18,8 @@ students.Add(s5.Id, s5);
 
 foreach (var student in students.Values)
 {
-    Console.WriteLine(student);
-    //Console.WriteLine($"Student Id : {student.Id}, Name: {student.Name}, Age: {student.Age}");
+
+    Console.WriteLine($"Student Id : {student.Id}, Name: {student.Name}, Age: {student.Age}");
 }
 
 // var input = Console.ReadLine();
