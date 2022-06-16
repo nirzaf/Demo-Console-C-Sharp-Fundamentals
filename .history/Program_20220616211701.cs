@@ -6,8 +6,7 @@ var students = new Hashtable();
 var s1 = new Student(1, "John", 15);
 var s2 = new Student(2, "Jane", 12);
 var s3 = new Student(3, "Jack", 13);
-var s4 = new Student(4, "Jill", 11);
-var s5 = new Student(5, "Joe", 14);
+var 
 
 // var input = Console.ReadLine();
 // MultiplicationTable(Convert.ToInt32(input));
