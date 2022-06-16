@@ -17,9 +17,9 @@
  int a = 1;
  int b = 2;
  Console.WriteLine("Before swap: a = {0}, b = {1}", a, b);
-a = a + b;
-b = a - b;
-a = a - b;
+int a = a + b;
+int b = a - b;
+
 Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
 
 
