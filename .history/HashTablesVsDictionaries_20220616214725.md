@@ -1,4 +1,4 @@
-<h2 align="center" > Hashtable Vs Dictionary </h2>
+<p align="center" ### Hashtable Vs Dictionary 
 
 | Hashtable   | 	Dictionary |
 |:------------:|:-------------:|
