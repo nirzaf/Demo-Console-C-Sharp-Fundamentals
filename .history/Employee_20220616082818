@@ -14,17 +14,7 @@ public class Employee
     public string? Department { get; set; }
     public string? OfficeLocation { get; set; }
 
-    public void Update(Employee employee)
-    {
-        EmployeeId = employee.EmployeeId;
-        FirstName = employee.FirstName;
-        LastName = employee.LastName;
-        Email = employee.Email;
-        PhoneNumber = employee.PhoneNumber;
-        JobTitle = employee.JobTitle;
-        Department = employee.Department;
-        OfficeLocation = employee.OfficeLocation;
-    }
+    public 
 
     
 }
