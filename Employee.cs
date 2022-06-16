@@ -1,13 +1,13 @@
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Demo_Console_C_Sharp_Fundamentals
 {
     public class Employee
     {
-        [Key]
-        public string EmployeeId { get; set; }
+        [Key] public string EmployeeId { get; set; }
         [Required]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? Email { get; set; }
         [MaxLength(20)]
