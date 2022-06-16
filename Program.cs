@@ -29,6 +29,8 @@ emp.WorkHours = 8;
 
 Console.WriteLine(emp.CalculateSalary());
 
+Console.WriteLine(emp.ToString());
+
 /*
  Write a program in C# to display the multiplication table
  vertically from 1 to n

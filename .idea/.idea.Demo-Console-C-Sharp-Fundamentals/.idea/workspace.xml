@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +126,7 @@
       <workItem from="1655175881124" duration="606000" />
       <workItem from="1655216227272" duration="4775000" />
       <workItem from="1655306907354" duration="1216000" />
+      <workItem from="1655349432839" duration="757000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -258,6 +261,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>39</line>
+          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="37" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="887" />
+            </startOffsets>
+            <endOffsets>
+              <option value="986" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />
