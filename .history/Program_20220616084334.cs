@@ -1,14 +1,14 @@
-﻿// var input = Console.ReadLine();
-// MultiplicationTable(Convert.ToInt32(input));
+﻿var input = Console.ReadLine();
+MultiplicationTable(Convert.ToInt32(input));
 
-// int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
-// var prime = FilterPrimeNumbersFromIntArray(numbers);
+var prime = FilterPrimeNumbersFromIntArray(numbers);
 
-// foreach (var a in prime)
-// {
-//     Console.WriteLine(a);
-// }
+foreach (var a in prime)
+{
+    Console.WriteLine(a);
+}
 
 var emp = new Employee();
 emp.EmployeeId = "123";
@@ -23,7 +23,7 @@ emp.Salary = 1000;
 emp.Overtime = 10;
 emp.WorkHours = 8;
 
-Console.WriteLine(emp.CalculateSalary());
+
 
 /*
  Write a program in C# to display the multiplication table

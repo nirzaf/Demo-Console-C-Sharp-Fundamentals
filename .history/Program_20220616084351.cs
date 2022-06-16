@@ -5,10 +5,10 @@
 
 // var prime = FilterPrimeNumbersFromIntArray(numbers);
 
-// foreach (var a in prime)
-// {
-//     Console.WriteLine(a);
-// }
+foreach (var a in prime)
+{
+    Console.WriteLine(a);
+}
 
 var emp = new Employee();
 emp.EmployeeId = "123";
