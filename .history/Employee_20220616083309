@@ -29,10 +29,5 @@ public class Employee
         OfficeLocation = employee.OfficeLocation;
     }
 
-    public double CalculateSalary()
-    {
-        return Salary + Overtime * WorkHours;
-    }
-
     
 }

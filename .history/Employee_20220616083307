@@ -15,7 +15,7 @@ public class Employee
     public string? OfficeLocation { get; set; }
     public double Salary { get; set; }
     public double Overtime { get; set; }
-    public double WorkHours { get; set; }
+    public double Wor
 
     public void Update(Employee employee)
     {
@@ -27,11 +27,6 @@ public class Employee
         JobTitle = employee.JobTitle;
         Department = employee.Department;
         OfficeLocation = employee.OfficeLocation;
-    }
-
-    public double CalculateSalary()
-    {
-        return Salary + Overtime * WorkHours;
     }
 
     
