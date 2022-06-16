@@ -39,22 +39,6 @@ public class Employee
         return $"{EmployeeId} {FirstName} {LastName} {Email} {PhoneNumber} {JobTitle} {Department} {OfficeLocation} {Salary} {Overtime} {WorkHours}";
     }
 
-    public static Employee Create(string employeeId, string firstName, string? lastName, string? email, string? phoneNumber, string? jobTitle, string? department, string? officeLocation, double salary, double overtime, double workHours)
-    {
-        return new Employee
-        {
-            EmployeeId = employeeId,
-            FirstName = firstName,
-            LastName = lastName,
-            Email = email,
-            PhoneNumber = phoneNumber,
-            JobTitle = jobTitle,
-            Department = department,
-            OfficeLocation = officeLocation,
-            Salary = salary,
-            Overtime = overtime,
-            WorkHours = workHours
-        };
-    }
+
     
 }
