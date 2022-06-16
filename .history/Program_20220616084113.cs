@@ -11,7 +11,7 @@ foreach (var a in prime)
 }
 
 Employee emp = new Employee();
-Employee.Create("123", "John", "Doe", ")
+Employee.
 
 /*
  Write a program in C# to display the multiplication table
