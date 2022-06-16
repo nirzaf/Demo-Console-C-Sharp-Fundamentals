@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +53,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -126,7 +125,7 @@
       <workItem from="1655175881124" duration="606000" />
       <workItem from="1655216227272" duration="4775000" />
       <workItem from="1655306907354" duration="1216000" />
-      <workItem from="1655349432839" duration="757000" />
+      <workItem from="1655349432839" duration="841000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655308661048</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=" Write a program in C# to display the multiplication table&#10; vertically from 1 to n">
+      <created>1655350270890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655350270890</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,26 +264,10 @@
     <MESSAGE value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
     <MESSAGE value="              Console.Write(&quot;{0} X {1} = {2}&quot;,j,i,i*j);" />
     <MESSAGE value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
-    <option name="LAST_COMMIT_MESSAGE" value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
+    <MESSAGE value=" Write a program in C# to display the multiplication table&#10; vertically from 1 to n" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Write a program in C# to display the multiplication table&#10; vertically from 1 to n" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>39</line>
-          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="37" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="887" />
-            </startOffsets>
-            <endOffsets>
-              <option value="986" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />
