@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.autogit/logs/log-15-5-2022-21-21-57.txt" afterDir="false" />
-    </list>
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1655134512663" duration="429000" />
       <workItem from="1655175881124" duration="606000" />
       <workItem from="1655216227272" duration="4775000" />
-      <workItem from="1655306907354" duration="1191000" />
+      <workItem from="1655306907354" duration="1216000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655227512140</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}">
+      <created>1655308661048</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1655308661048</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +254,8 @@
     <MESSAGE value="using static System.Console;" />
     <MESSAGE value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
     <MESSAGE value="              Console.Write(&quot;{0} X {1} = {2}&quot;,j,i,i*j);" />
-    <option name="LAST_COMMIT_MESSAGE" value="              Console.Write(&quot;{0} X {1} = {2}&quot;,j,i,i*j);" />
+    <MESSAGE value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
+    <option name="LAST_COMMIT_MESSAGE" value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
