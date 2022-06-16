@@ -44,18 +44,20 @@ a = a - b;
 Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
 
 
-var emp = new Employee();
-emp.EmployeeId = "123";
-emp.FirstName = "John";
-emp.LastName = "Doe";
-emp.Email = "abcd@gmail.com";
-emp.PhoneNumber = "0772049123";
-emp.JobTitle = "Software Engineer";
-emp.Department = "IT";
-emp.OfficeLocation = "Colombo";
-emp.Salary = 1000;
-emp.Overtime = 10;
-emp.WorkHours = 8;
+var emp = new Employee
+{
+    EmployeeId = "123",
+    FirstName = "John",
+    LastName = "Doe",
+    Email = "abcd@gmail.com",
+    PhoneNumber = "0772049123",
+    JobTitle = "Software Engineer",
+    Department = "IT",
+    OfficeLocation = "Colombo",
+    Salary = 1000,
+    Overtime = 10,
+    WorkHours = 8
+};
 
 Console.WriteLine(emp.CalculateSalary());
 Console.WriteLine(emp.ToString());
