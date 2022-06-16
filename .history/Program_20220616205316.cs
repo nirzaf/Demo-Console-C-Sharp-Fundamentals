@@ -19,18 +19,7 @@
     
     Console.WriteLine("Before swap: a = {0}, b = {1}", a, b);
     Swap(ref a, ref b);
-    Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
-
-    // Swap two integers values without a third integer variable
-    int c = 1;
-    int d = 2;
-
-static void Swap(ref int a, ref int b)
-{
-    int temp = a;
-    a = b;
-    b = temp;
-}
+    
 
 
 

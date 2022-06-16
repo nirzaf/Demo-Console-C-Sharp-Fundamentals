@@ -23,14 +23,7 @@
 
     // Swap two integers values without a third integer variable
     int c = 1;
-    int d = 2;
-
-static void Swap(ref int a, ref int b)
-{
-    int temp = a;
-    a = b;
-    b = temp;
-}
+    
 
 
 
