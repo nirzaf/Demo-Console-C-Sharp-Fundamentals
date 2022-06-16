@@ -1,0 +1,3 @@
+
+## | Hashtable   | 	Dictionary |
+-
