@@ -6,14 +6,13 @@ public class Employee
     public string EmployeeId { get; set; }
     [Required]
     public string FirstName { get; set; }
+    [Range]
     public string? LastName { get; set; }
     public string? Email { get; set; }
-    [MaxLength(20)]
     public string? PhoneNumber { get; set; }
     public string? JobTitle { get; set; }
     public string? Department { get; set; }
     public string? OfficeLocation { get; set; }
-
 
 
     
