@@ -14,7 +14,6 @@ public class Employee
     public string? Department { get; set; }
     public string? OfficeLocation { get; set; }
     public double Salary { get; set; }
-    public double Overtime { get; set; }
     
 
     public void Update(Employee employee)
