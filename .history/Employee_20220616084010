@@ -1,0 +1,61 @@
+using System.ComponentModel.DataAnnotations;
+
+public class Employee
+{
+    [Key]
+    public string EmployeeId { get; set; }
+    [Required]
+    public string FirstName { get; set; }
+    public string? LastName { get; set; }
+    public string? Email { get; set; }
+    [MaxLength(20)]
+    public string? PhoneNumber { get; set; }
+    public string? JobTitle { get; set; }
+    public string? Department { get; set; }
+    public string? OfficeLocation { get; set; }
+    public double Salary { get; set; }
+    public double Overtime { get; set; }
+    public double WorkHours { get; set; }
+
+
+    public void Update(Employee employee)
+    {
+        EmployeeId = employee.EmployeeId;
+        FirstName = employee.FirstName;
+        LastName = employee.LastName;
+        Email = employee.Email;
+        PhoneNumber = employee.PhoneNumber;
+        JobTitle = employee.JobTitle;
+        Department = employee.Department;
+        OfficeLocation = employee.OfficeLocation;
+    }
+
+    public double CalculateSalary()
+    {
+        return Salary + Overtime * WorkHours;
+    }
+
+    public override string ToString()
+    {
+        return $"{EmployeeId} {FirstName} {LastName} {Email} {PhoneNumber} {JobTitle} {Department} {OfficeLocation} {Salary} {Overtime} {WorkHours}";
+    }
+
+    public static Employee Create(string employeeId, string firstName, string? lastName, string? email, string? phoneNumber, string? jobTitle, string? department, string? officeLocation, double salary, double overtime, double workHours)
+    {
+        return new Employee
+        {
+            EmployeeId = employeeId,
+            FirstName = firstName,
+            LastName = lastName,
+            Email = email,
+            PhoneNumber = phoneNumber,
+            JobTitle = jobTitle,
+            Department = department,
+            OfficeLocation = officeLocation,
+            Salary = salary,
+            Overtime = overtime,
+            WorkHours = workHours
+        };
+    }
+    
+}
