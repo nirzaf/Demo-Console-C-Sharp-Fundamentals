@@ -27,6 +27,7 @@ emp.Overtime = 10;
 emp.WorkHours = 8;
 
 Console.WriteLine(emp.CalculateSalary());
+
 Console.WriteLine(emp.ToString());
 
 /*
