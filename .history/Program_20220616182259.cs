@@ -13,8 +13,7 @@
 // }
 
 
-//Swap two integers values without a third integer variable
-int A = 19 
+//Swap two integers values without a third integer varaible 
 
 var emp = new Employee();
 emp.EmployeeId = "123";
