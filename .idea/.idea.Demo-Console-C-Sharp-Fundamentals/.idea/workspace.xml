@@ -7,35 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }">
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211459.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211507.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211517.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211520.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211523.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211531.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211532.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211533.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211618.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211622.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211623.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211628.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211630.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211631.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211637.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211640.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211642.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211643.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211647.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211650.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211653.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211701.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211704.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211708.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211711.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211712.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +133,7 @@
       <workItem from="1655216227272" duration="4775000" />
       <workItem from="1655306907354" duration="1216000" />
       <workItem from="1655349432839" duration="841000" />
-      <workItem from="1655374030508" duration="3182000" />
+      <workItem from="1655374030508" duration="3799000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -319,6 +291,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>38</line>
+          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="38" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="955" />
+            </startOffsets>
+            <endOffsets>
+              <option value="965" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />
