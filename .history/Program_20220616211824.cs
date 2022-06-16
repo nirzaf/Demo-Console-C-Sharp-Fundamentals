@@ -9,18 +9,7 @@ var s3 = new Student(3, "Jack", 13);
 var s4 = new Student(4, "Jill", 11);
 var s5 = new Student(5, "Joe", 14);
 
-students.Add(s1.Id, s1);
-students.Add(s2.Id, s2);
-students.Add(s3.Id, s3);
-students.Add(s4.Id, s4);
-students.Add(s5.Id, s5);
-
-
-foreach (var student in students.Values)
-{
-    var studentObj = student.Value;
-    Console.WriteLine($"Student Id : {student.Id}, Name: {student.Name}, Age: {student.Age}");
-}
+students.
 
 // var input = Console.ReadLine();
 // MultiplicationTable(Convert.ToInt32(input));
@@ -115,15 +104,7 @@ static void MultiplicationTable(int n)
     }
 }
 
-try
-{
-    Console.ReadKey();
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
-}
-
+Console.ReadKey();
 
 
 

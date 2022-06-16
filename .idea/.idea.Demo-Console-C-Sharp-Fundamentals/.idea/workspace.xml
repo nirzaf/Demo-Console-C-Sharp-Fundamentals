@@ -7,8 +7,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.cs" afterDir="false" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }">
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211459.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211507.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211517.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211520.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211523.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211531.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211532.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211533.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211618.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211622.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211623.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211628.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211630.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211631.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211637.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211640.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211642.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211643.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211647.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211650.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211653.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211701.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211704.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211708.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211711.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.history/Program_20220616211712.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +81,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Employee.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Employee.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -133,7 +161,7 @@
       <workItem from="1655216227272" duration="4775000" />
       <workItem from="1655306907354" duration="1216000" />
       <workItem from="1655349432839" duration="841000" />
-      <workItem from="1655374030508" duration="2320000" />
+      <workItem from="1655374030508" duration="3182000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -240,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655350270890</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }">
+      <created>1655388748888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655388748888</updated>
+    </task>
+    <task id="LOCAL-00018" summary="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }">
+      <created>1655388786598</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655388786598</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +315,8 @@
     <MESSAGE value="              Console.Write(&quot;{0} X {1} = {2}&quot;,j,i,i*j);" />
     <MESSAGE value="static int[] FilterPrimeNumbersFromIntArray(int[] arr)&#10;{&#10;    return arr.Where(IsPrime).ToArray();&#10;}" />
     <MESSAGE value=" Write a program in C# to display the multiplication table&#10; vertically from 1 to n" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Write a program in C# to display the multiplication table&#10; vertically from 1 to n" />
+    <MESSAGE value="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }" />
+    <option name="LAST_COMMIT_MESSAGE" value="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

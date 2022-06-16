@@ -16,10 +16,10 @@ students.Add(s4.Id, s4);
 students.Add(s5.Id, s5);
 
 
-foreach (var student in students.Values)
+foreach (DictionaryEntry student in students)
 {
-    var studentObj = student.Value;
-    Console.WriteLine($"Student Id : {student.Id}, Name: {student.Name}, Age: {student.Age}");
+    var studentObj = (Student)student.Value;
+    Console.WriteLine($"Student Id : {studentObj.Id}, Name: {studentObj.Name}, Age: {studentObj.Age}");
 }
 
 // var input = Console.ReadLine();
@@ -118,10 +118,6 @@ static void MultiplicationTable(int n)
 try
 {
     Console.ReadKey();
-}
-catch (Exception ex)
-{
-    Console.WriteLine(ex.Message);
 }
 
 
