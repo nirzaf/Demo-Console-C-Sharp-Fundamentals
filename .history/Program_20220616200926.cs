@@ -13,11 +13,10 @@
 // }
 
 
-// Swap two integers values without a third integer variable
- int a = 1;
- int b = 2;
- 
+//Swap two integers values without a third integer variable
 
+int A = 10;
+int B = 20;
 
 
 

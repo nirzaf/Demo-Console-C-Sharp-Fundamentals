@@ -16,7 +16,6 @@
 // Swap two integers values without a third integer variable
  int a = 1;
  int b = 2;
- 
 
 
 
