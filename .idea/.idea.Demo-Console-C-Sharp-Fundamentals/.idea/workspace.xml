@@ -10,6 +10,7 @@
     <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/0b5567882521e02aa3d40a7bce81b7235ccac4db588866e3498e614c3bc/CastHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/a2e23547b6babc78fb634a414bdc249131649bace90e3141fc23f36fa436dce/Hashtable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -136,7 +139,8 @@
       <workItem from="1655349432839" duration="841000" />
       <workItem from="1655374030508" duration="5138000" />
       <workItem from="1655437136434" duration="33000" />
-      <workItem from="1655437205036" duration="2700000" />
+      <workItem from="1655437205036" duration="3342000" />
+      <workItem from="1655468909201" duration="4065000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -271,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655397196271</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="var prime = FilterPrimeNumbersFromIntArray(numbers);">
+      <created>1655440804176</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655440804176</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,9 +318,40 @@
     <MESSAGE value="        public string FirstName { get; set; }&#10;        public string? LastName { get; set; }" />
     <MESSAGE value="Console.ReadKey();" />
     <MESSAGE value="Console.WriteLine(emp.ToString());" />
-    <option name="LAST_COMMIT_MESSAGE" value="Console.WriteLine(emp.ToString());" />
+    <MESSAGE value="var prime = FilterPrimeNumbersFromIntArray(numbers);" />
+    <option name="LAST_COMMIT_MESSAGE" value="var prime = FilterPrimeNumbersFromIntArray(numbers);" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>75</line>
+          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="23" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1433" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1461" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Program.cs</url>
+          <line>28</line>
+          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="16" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="414" />
+            </startOffsets>
+            <endOffsets>
+              <option value="483" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />
