@@ -138,7 +138,7 @@
       <workItem from="1655374030508" duration="5138000" />
       <workItem from="1655437136434" duration="33000" />
       <workItem from="1655437205036" duration="3342000" />
-      <workItem from="1655468909201" duration="4678000" />
+      <workItem from="1655468909201" duration="5444000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -324,26 +324,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>72</line>
+          <line>69</line>
           <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="23" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1430" />
+              <option value="1421" />
             </startOffsets>
             <endOffsets>
-              <option value="1458" />
+              <option value="1449" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>28</line>
+          <line>25</line>
           <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="16" containingFunctionPresentation="">
             <startOffsets>
-              <option value="414" />
+              <option value="411" />
             </startOffsets>
             <endOffsets>
-              <option value="483" />
+              <option value="479" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />

@@ -1,7 +1,5 @@
 ﻿using System.Collections;
 
-
-
 HashSet<string> hash = new();
 hash.Add("Fazrin");
 hash.Add("Fazrin");
@@ -14,29 +12,28 @@ foreach (var h in hash)
 }
 
 Console.WriteLine("Printing List ......");
-List<string> Names = new();
-Names.Add("Fazrin");
-Names.Add("Fazrin");
-Names.Add("Fazrin");
-Names.Add("Fazrin");
+List<string> names = new();
+names.Add("Fazrin");
+names.Add("Fazrin");
+names.Add("Fazrin");
+names.Add("Fazrin");
 
-foreach (var name in Names)
+foreach (var name in names)
 {
     Console.WriteLine(name);
 }
 
+IDictionary<int, string> dictionary = new Dictionary<int, string>();
 
-IDictionary<int, string> _dictionary = new Dictionary<int, string>();
-
-_dictionary.Add(1, "one");
-_dictionary.Add(2, "two");
-_dictionary.Add(3, "three");
-_dictionary.Add(4, "Fazrin");
+dictionary.Add(1, "one");
+dictionary.Add(2, "two");
+dictionary.Add(3, "three");
+dictionary.Add(4, "Fazrin");
 
 
-int[] A = {1,2,3,34,434,3,34,3};
+int[] a = {1,2,3,34,434,3,34,3};
 
-foreach (var item in _dictionary)
+foreach (var item in dictionary)
 {
     Console.WriteLine($"{item.Key}, {item.Value}");
 }
