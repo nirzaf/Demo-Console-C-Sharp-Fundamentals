@@ -34,15 +34,12 @@ _dictionary.Add(3, "three");
 _dictionary.Add(4, "Fazrin");
 
 
-
-
 int[] A = {1,2,3,34,434,3,34,3};
 
 foreach (var item in _dictionary)
 {
     Console.WriteLine($"{item.Key}, {item.Value}");
 }
-
 
 
 // var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));

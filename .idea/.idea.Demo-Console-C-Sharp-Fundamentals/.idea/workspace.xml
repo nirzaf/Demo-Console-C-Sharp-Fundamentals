@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <workItem from="1655374030508" duration="5138000" />
       <workItem from="1655437136434" duration="33000" />
       <workItem from="1655437205036" duration="3342000" />
-      <workItem from="1655468909201" duration="4065000" />
+      <workItem from="1655468909201" duration="4678000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -326,13 +324,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>75</line>
+          <line>72</line>
           <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="23" containingFunctionPresentation="">
             <startOffsets>
-              <option value="1433" />
+              <option value="1430" />
             </startOffsets>
             <endOffsets>
-              <option value="1461" />
+              <option value="1458" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
