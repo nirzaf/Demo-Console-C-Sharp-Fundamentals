@@ -1,6 +1,15 @@
 ﻿using System.Collections;
 using Demo_Console_C_Sharp_Fundamentals;
 
+
+var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));
+static int GetDaysBetweenTwoDates(DateTime startDate, DateTime endDate)
+{
+    return (int)(endDate - startDate).TotalDays;
+}
+
+Console.WriteLine(daysBetweenDates);
+
 var students = new Hashtable();
 
 var s1 = new Student(1, "John", 15);
@@ -21,27 +30,17 @@ foreach (Student student in students.Values)
     Console.WriteLine($"Student Id : {student.Id}, Name: {student.Name}, Age: {student.Age}");
 }
 
-// var input = Console.ReadLine();
-// MultiplicationTable(Convert.ToInt32(input));
+var input = Console.ReadLine();
+MultiplicationTable(Convert.ToInt32(input));
 
-// int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+int[] numbers =  { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
 
-// var prime = FilterPrimeNumbersFromIntArray(numbers);
+var prime = FilterPrimeNumbersFromIntArray(numbers);
 
-// foreach (var a in prime)
-// {
-//     Console.WriteLine(a);
-// }
-
-
-// Swap two integers values without a third integer variable
-int a = 1;
-int b = 2;
-Console.WriteLine("Before swap: a = {0}, b = {1}", a, b);
-a = a + b;
-b = a - b;
-a = a - b;
-Console.WriteLine("After swap: a = {0}, b = {1}", a, b);
+foreach (var d in prime)
+{
+    Console.WriteLine(d);
+}
 
 
 var emp = new Employee
