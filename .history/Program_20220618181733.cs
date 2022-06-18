@@ -9,11 +9,10 @@ using Demo_Console_C_Sharp_Fundamentals;
 // Student.Marks = 876;
 // Student.SubjectsCount = 10;
 
-//Console.WriteLine(Student.GetAverageMarks());
+Console.WriteLine(Student.GetAverageMarks());
 
 Employee emp1 = new Employee(); 
 Employee emp2 = new Employee();
-FullTimeEmployee fullemp
 
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;

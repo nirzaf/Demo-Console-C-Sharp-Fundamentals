@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 18:15:32 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Employee.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-18-14-19.txt
+
+
+Deleted files:
+
+
+Renamed files:

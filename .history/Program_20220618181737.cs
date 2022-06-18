@@ -13,7 +13,6 @@ using Demo_Console_C_Sharp_Fundamentals;
 
 Employee emp1 = new Employee(); 
 Employee emp2 = new Employee();
-FullTimeEmployee fullemp
 
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;
