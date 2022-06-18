@@ -6,7 +6,7 @@ Student.SubjectsCount = 8;
 
 Console.WriteLine(Student.GetAverageMarks());
 
-Employee emp1 = new Employee(); 
+Employee emp 
 
 
 

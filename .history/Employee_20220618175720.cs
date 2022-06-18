@@ -8,11 +8,10 @@ namespace Demo_Console_C_Sharp_Fundamentals
         public string Name { get; set; }
         public string Email { get; set; }
         public double BasicSalary { get;set; }
-        public double Overtime { get; set; }
 
-        public double TotalGrossSalary()
+        public double TotalBasicSalary()
         {
-            return BasicSalary + Overtime;
+            return BasicSalary;
         }
     }
 

@@ -10,9 +10,9 @@ namespace Demo_Console_C_Sharp_Fundamentals
         public double BasicSalary { get;set; }
         public double Overtime { get; set; }
 
-        public double TotalGrossSalary()
+        public double TotalBasicSalary()
         {
-            return BasicSalary + Overtime;
+            return BasicSalary;
         }
     }
 

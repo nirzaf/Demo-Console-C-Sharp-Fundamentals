@@ -6,9 +6,7 @@ Student.SubjectsCount = 8;
 
 Console.WriteLine(Student.GetAverageMarks());
 
-Employee emp1 = new Employee(); 
-
-
+Employee
 
 // var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));
 // static int GetDaysBetweenTwoDates(DateTime startDate, DateTime endDate)
