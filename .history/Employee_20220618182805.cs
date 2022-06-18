@@ -34,7 +34,8 @@ namespace Demo_Console_C_Sharp_Fundamentals
     {
         public double GetBonus()
         {
-            return GetTotalGrossSalary() * 0.08;
+            return GetTotalGrossSalary() * 0.05;
         }
+
     }
 }
