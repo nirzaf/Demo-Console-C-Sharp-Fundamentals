@@ -1,6 +1,6 @@
 public static class Student
 {
-    public static int Id { get; set; }
+    public static int Id 
     public string Name { get; set; }
     public int Age { get; set; }
 
