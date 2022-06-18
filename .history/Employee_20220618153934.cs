@@ -10,8 +10,8 @@ namespace Demo_Console_C_Sharp_Fundamentals
         public double BasicSalary { get;set; }
     }
 
-    public class FullTimeEmployee : Employee
+    public class FullTimeEmployee
     {
-        public double 
+        
     }
 }

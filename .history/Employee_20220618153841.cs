@@ -9,9 +9,4 @@ namespace Demo_Console_C_Sharp_Fundamentals
         public string Email { get; set; }
         public double BasicSalary { get;set; }
     }
-
-    public class FullTimeEmployee : Employee
-    {
-        public double 
-    }
 }
