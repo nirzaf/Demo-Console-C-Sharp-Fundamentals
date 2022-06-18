@@ -17,10 +17,7 @@ puppy.Name = "Tommy";
 puppy.getName();
 puppy.Bark();
 
-Cat cat = new Cat();
-cat.Name = "Mimi";
-cat.getName();
-cat.Meow();
+
 
 AudiCar car1 = new AudiCar();
 car1.VehicleNumber = "KA-01-AA-1234";
