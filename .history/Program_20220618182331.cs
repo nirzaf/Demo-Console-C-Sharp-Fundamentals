@@ -24,8 +24,6 @@ ptEmp1.BasicSalary = 2000;
 ptEmp1.Overtime = 1000;
 var bonusPartTime =  ptEmp1.BonusPartTime();
 
-Console.WriteLine(bonusPartTime);
-
 Console.WriteLine(bonus);
 
 emp1.BasicSalary = 1000;
