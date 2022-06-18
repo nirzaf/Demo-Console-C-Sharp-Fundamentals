@@ -13,8 +13,7 @@ using Demo_Console_C_Sharp_Fundamentals;
 
 
 HolidayPaymentForFullTimeEmployee holidayPayment = new HolidayPaymentForFullTimeEmployee();
-holidayPayment.BasicSalary = 5000;
-holidayPayment.Overtime = 2000;
+holidayPayment.BasicSalary = 1000;
 
 
 

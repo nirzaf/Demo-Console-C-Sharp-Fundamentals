@@ -12,11 +12,6 @@ using Demo_Console_C_Sharp_Fundamentals;
 //Console.WriteLine(Student.GetAverageMarks());
 
 
-HolidayPaymentForFullTimeEmployee holidayPayment = new HolidayPaymentForFullTimeEmployee();
-holidayPayment.BasicSalary = 5000;
-holidayPayment.Overtime = 2000;
-
-
 
 
 PartTimeEmployee ptEmp1 = new PartTimeEmployee();
@@ -26,6 +21,18 @@ var bonusPartTime =  ptEmp1.BonusPartTime();
 
 Console.WriteLine(bonusPartTime);
 
+Console.WriteLine(bonus);
+
+emp1.BasicSalary = 1000;
+emp1.Overtime = 500;
+
+Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+
+emp2.BasicSalary = 2000;
+emp2.Overtime = 1000;
+Console.WriteLine("Employee2 Salary:" + emp2.GetTotalGrossSalary());
+
+Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
 
 
 

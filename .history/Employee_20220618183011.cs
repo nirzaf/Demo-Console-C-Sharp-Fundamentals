@@ -26,7 +26,7 @@ namespace Demo_Console_C_Sharp_Fundamentals
     {
         public double GetTotalHolidayPayment()
         {
-            return GetBonus() * 10;
+            return Ge
         }
     }
 

@@ -18,7 +18,6 @@ holidayPayment.Overtime = 2000;
 
 
 
-
 PartTimeEmployee ptEmp1 = new PartTimeEmployee();
 ptEmp1.BasicSalary = 2000;
 ptEmp1.Overtime = 1000;
