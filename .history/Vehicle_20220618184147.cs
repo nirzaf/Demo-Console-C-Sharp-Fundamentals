@@ -16,10 +16,7 @@ namespace Demo_Console_C_Sharp_Fundamentals
 
     public class AudiCar : Vehicle
     {
-        public string GetGearType()
-        {
-            return "This is an automatic and manual gear";
-        }
+        public string Get
     }
 
 }
