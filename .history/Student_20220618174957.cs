@@ -4,7 +4,7 @@ public static class Student
     public static string Name { get; set; }
     public static int Age { get; set; }
 
-    public static int StudentsMarks()
+    public static int StudnesSMarks()
     {
         return 0;
     }

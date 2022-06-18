@@ -4,8 +4,14 @@ public static class Student
     public static string Name { get; set; }
     public static int Age { get; set; }
 
-    public static int StudentsMarks()
+    public Student()
     {
-        return 0;
+        
+    }
+    public Student(int id, string name,  int age)
+    {
+        Id = id;
+        Name = name;
+        Age = age;
     }
 }

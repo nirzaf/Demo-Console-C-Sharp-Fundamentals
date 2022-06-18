@@ -4,8 +4,8 @@ public static class Student
     public static string Name { get; set; }
     public static int Age { get; set; }
 
-    public static int StudentsMarks()
+    public static int StudnetMarks()
     {
-        return 0;
+
     }
 }
