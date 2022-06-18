@@ -2,9 +2,8 @@
 
 
 Student.Marks = 656;
-Student.SubjectsCount = 8;
-
-Console.WriteLine(Student.GetAverageMarks());
+Stud
+Student.GetAverageMarks()
 
 
 

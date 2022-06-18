@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 
 
-Student.Marks = 656;
-Student.SubjectsCount = 8;
-
-Console.WriteLine(Student.GetAverageMarks());
+Student.Marks = 
+Student.GetAverageMarks()
 
 
 

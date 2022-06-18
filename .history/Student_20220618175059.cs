@@ -6,8 +6,9 @@ public static class Student
     public static int Marks {get; set;}
     public static int SubjectsCount {get; set;}
 
-    public static int GetAverageMarks()
+
+    public static int StudentsMarks()
     {
-        return Marks / SubjectsCount;
+        return 0;
     }
 }

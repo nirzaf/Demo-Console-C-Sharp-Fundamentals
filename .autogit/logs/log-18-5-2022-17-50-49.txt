@@ -1,0 +1,41 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 17:50:49 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Student.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-17-48-29.txt
+* .autogit/logs/log-18-5-2022-17-49-3.txt
+* .autogit/logs/log-18-5-2022-17-49-38.txt
+* .history/Student_20220618174834.cs
+* .history/Student_20220618174837.cs
+* .history/Student_20220618174839.cs
+* .history/Student_20220618174845.cs
+* .history/Student_20220618174851.cs
+* .history/Student_20220618174856.cs
+* .history/Student_20220618174908.cs
+* .history/Student_20220618174911.cs
+* .history/Student_20220618174922.cs
+* .history/Student_20220618174925.cs
+* .history/Student_20220618174930.cs
+* .history/Student_20220618174934.cs
+* .history/Student_20220618174937.cs
+* .history/Student_20220618174940.cs
+* .history/Student_20220618174944.cs
+* .history/Student_20220618174947.cs
+* .history/Student_20220618174953.cs
+* .history/Student_20220618174957.cs
+* .history/Student_20220618174959.cs
+* .history/Student_20220618175001.cs
+* .history/Student_20220618175004.cs
+* .history/Student_20220618175005.cs
+* .history/Student_20220618175007.cs
+
+
+Deleted files:
+
+
+Renamed files:

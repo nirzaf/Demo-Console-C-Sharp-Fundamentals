@@ -1,11 +1,42 @@
 ﻿using System.Collections;
 
+HashSet<string> hash = new();
+hash.Add("Fazrin");
+hash.Add("Fazrin");
+hash.Add("Fazrin");
+hash.Add("Fazrin");
 
-Student.Marks = 656;
-Student.SubjectsCount = 8;
+foreach (var h in hash)
+{
+    Console.WriteLine(h);
+}
 
-Console.WriteLine(Student.GetAverageMarks());
+Console.WriteLine("Printing List ......");
+List<string> names = new();
+names.Add("Fazrin");
+names.Add("Fazrin");
+names.Add("Fazrin");
+names.Add("Fazrin");
 
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
+
+IDictionary<int, string> dictionary = new Dictionary<int, string>();
+
+dictionary.Add(1, "one");
+dictionary.Add(2, "two");
+dictionary.Add(3, "three");
+dictionary.Add(4, "Fazrin");
+
+
+int[] a = {1,2,3,34,434,3,34,3};
+
+foreach (var item in dictionary)
+{
+    Console.WriteLine($"{item.Key}, {item.Value}");
+}
 
 
 // var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));

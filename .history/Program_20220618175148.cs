@@ -1,12 +1,6 @@
 ﻿using System.Collections;
 
 
-Student.Marks = 656;
-Student.SubjectsCount = 8;
-
-Console.WriteLine(Student.GetAverageMarks());
-
-
 
 // var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));
 // static int GetDaysBetweenTwoDates(DateTime startDate, DateTime endDate)
