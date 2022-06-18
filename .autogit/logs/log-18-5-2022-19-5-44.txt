@@ -1,0 +1,107 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 19:05:44 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Program.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-18-54-23.txt
+* .autogit/logs/log-18-5-2022-18-57-18.txt
+* .autogit/logs/log-18-5-2022-18-58-0.txt
+* .autogit/logs/log-18-5-2022-18-58-29.txt
+* .autogit/logs/log-18-5-2022-18-59-39.txt
+* .autogit/logs/log-18-5-2022-18-59-5.txt
+* .autogit/logs/log-18-5-2022-19-0-19.txt
+* .autogit/logs/log-18-5-2022-19-1-3.txt
+* .autogit/logs/log-18-5-2022-19-1-30.txt
+* .autogit/logs/log-18-5-2022-19-2-1.txt
+* .autogit/logs/log-18-5-2022-19-2-44.txt
+* .autogit/logs/log-18-5-2022-19-3-13.txt
+* .autogit/logs/log-18-5-2022-19-3-50.txt
+* .autogit/logs/log-18-5-2022-19-4-26.txt
+* .history/Animal_20220618185350.cs
+* .history/Animal_20220618185357.cs
+* .history/Animal_20220618185400.cs
+* .history/Animal_20220618185404.cs
+* .history/Animal_20220618185406.cs
+* .history/Animal_20220618185410.cs
+* .history/Animal_20220618185413.cs
+* .history/Animal_20220618185416.cs
+* .history/Animal_20220618185420.cs
+* .history/Animal_20220618185422.cs
+* .history/Animal_20220618185428.cs
+* .history/Animal_20220618185431.cs
+* .history/Animal_20220618185434.cs
+* .history/Animal_20220618185440.cs
+* .history/Animal_20220618185441.cs
+* .history/Animal_20220618185444.cs
+* .history/Animal_20220618185446.cs
+* .history/Animal_20220618185448.cs
+* .history/Animal_20220618185449.cs
+* .history/Animal_20220618185451.cs
+* .history/Animal_20220618185503.cs
+* .history/Animal_20220618185505.cs
+* .history/Animal_20220618185539.cs
+* .history/Animal_20220618185544.cs
+* .history/Animal_20220618185545.cs
+* .history/Animal_20220618185553.cs
+* .history/Animal_20220618185601.cs
+* .history/Animal_20220618185603.cs
+* .history/Animal_20220618185605.cs
+* .history/Animal_20220618185606.cs
+* .history/Animal_20220618185609.cs
+* .history/Animal_20220618185611.cs
+* .history/Animal_20220618185618.cs
+* .history/Animal_20220618185620.cs
+* .history/Animal_20220618185624.cs
+* .history/Animal_20220618185629.cs
+* .history/Animal_20220618185634.cs
+* .history/Animal_20220618185636.cs
+* .history/Animal_20220618185640.cs
+* .history/Animal_20220618185642.cs
+* .history/Animal_20220618185645.cs
+* .history/Animal_20220618185911.cs
+* .history/Animal_20220618185915.cs
+* .history/Animal_20220618185931.cs
+* .history/Animal_20220618190142.cs
+* .history/Animal_20220618190147.cs
+* .history/Animal_20220618190152.cs
+* .history/Animal_20220618190153.cs
+* .history/Animal_20220618190157.cs
+* .history/Animal_20220618190204.cs
+* .history/Animal_20220618190209.cs
+* .history/Program_20220618185700.cs
+* .history/Program_20220618185704.cs
+* .history/Program_20220618185711.cs
+* .history/Program_20220618185714.cs
+* .history/Program_20220618185719.cs
+* .history/Program_20220618185723.cs
+* .history/Program_20220618185725.cs
+* .history/Program_20220618185733.cs
+* .history/Program_20220618185736.cs
+* .history/Program_20220618185740.cs
+* .history/Program_20220618185743.cs
+* .history/Program_20220618185745.cs
+* .history/Program_20220618185746.cs
+* .history/Program_20220618185749.cs
+* .history/Program_20220618185750.cs
+* .history/Program_20220618185752.cs
+* .history/Program_20220618185754.cs
+* .history/Program_20220618185959.cs
+* .history/Program_20220618190001.cs
+* .history/Program_20220618190002.cs
+* .history/Program_20220618190004.cs
+* .history/Program_20220618190013.cs
+* .history/Program_20220618190020.cs
+* .history/Program_20220618190023.cs
+* .history/Program_20220618190024.cs
+* .history/Program_20220618190028.cs
+* Animal.cs
+
+
+Deleted files:
+
+
+Renamed files:
