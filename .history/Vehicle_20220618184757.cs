@@ -16,7 +16,6 @@ namespace Demo_Console_C_Sharp_Fundamentals
 
     public class AudiCar : Vehicle
     {
-        public string VehicleModel { get; set; }
         public string GetGearType()
         {
             return $"This is an { GearType } gear type vehicle";

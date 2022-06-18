@@ -1,0 +1,38 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 18:48:38 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Program.cs
+* Vehicle.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-18-46-11.txt
+* .autogit/logs/log-18-5-2022-18-46-48.txt
+* .autogit/logs/log-18-5-2022-18-47-20.txt
+* .history/Program_20220618184610.cs
+* .history/Program_20220618184614.cs
+* .history/Program_20220618184616.cs
+* .history/Program_20220618184621.cs
+* .history/Program_20220618184625.cs
+* .history/Program_20220618184636.cs
+* .history/Program_20220618184638.cs
+* .history/Program_20220618184642.cs
+* .history/Program_20220618184646.cs
+* .history/Program_20220618184651.cs
+* .history/Program_20220618184653.cs
+* .history/Program_20220618184655.cs
+* .history/Program_20220618184701.cs
+* .history/Program_20220618184709.cs
+* .history/Vehicle_20220618184734.cs
+* .history/Vehicle_20220618184738.cs
+* .history/Vehicle_20220618184744.cs
+* .history/Vehicle_20220618184749.cs
+* .history/Vehicle_20220618184751.cs
+
+
+Deleted files:
+
+
+Renamed files:
