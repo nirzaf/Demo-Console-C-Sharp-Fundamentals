@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Employee.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +139,7 @@
       <workItem from="1655468909201" duration="5612000" />
       <workItem from="1655545605584" duration="802000" />
       <workItem from="1655547033884" duration="1000" />
+      <workItem from="1655561754894" duration="310000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -331,23 +329,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Hashtable Vs Dictionary" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Program.cs</url>
-          <line>25</line>
-          <properties documentPath="C:\Users\Fazrin\OneDrive\Documents\GitHub\Demo-Console-C-Sharp-Fundamentals\Program.cs" initialLine="25" containingFunctionPresentation="">
-            <startOffsets>
-              <option value="411" />
-            </startOffsets>
-            <endOffsets>
-              <option value="479" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="IsVehicleRegistered" />

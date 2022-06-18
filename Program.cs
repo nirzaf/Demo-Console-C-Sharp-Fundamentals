@@ -11,38 +11,48 @@ using Demo_Console_C_Sharp_Fundamentals;
 
 //Console.WriteLine(Student.GetAverageMarks());
 
-Dog puppy = new Dog();
+Dog puppy = new()
+{
+    Name = "Tommy"
+};
 
-puppy.Name = "Tommy";
 puppy.getName();
 puppy.Bark();
 
-Cat cat = new Cat();
-cat.Name = "Mimi";
+Cat cat = new()
+{
+    Name = "Mimi"
+};
 cat.getName();
 cat.Meow();
 
-AudiCar car1 = new AudiCar();
-car1.VehicleNumber = "KA-01-AA-1234";
-car1.VehicleName = "Audi";
-car1.GearType = "Dynamic";
+AudiCar car1 = new()
+{
+    VehicleNumber = "KA-01-AA-1234",
+    VehicleName = "Audi",
+    GearType = "Dynamic"
+};
 
-HolidayPaymentForFullTimeEmployee holidayPayment = new HolidayPaymentForFullTimeEmployee();
-holidayPayment.BasicSalary = 5000;
-holidayPayment.Overtime = 2000;
+HolidayPaymentForFullTimeEmployee holidayPayment = new()
+{
+    BasicSalary = 5000,
+    Overtime = 2000
+};
 var payment = holidayPayment.GetTotalHolidayPayment();
 Console.WriteLine(payment);
 
 
 
-PartTimeEmployee ptEmp1 = new PartTimeEmployee();
-ptEmp1.BasicSalary = 2000;
-ptEmp1.Overtime = 1000;
+PartTimeEmployee ptEmp1 = new()
+{
+    BasicSalary = 2000,
+    Overtime = 1000
+};
 var bonusPartTime =  ptEmp1.BonusPartTime();
 
 Console.WriteLine(bonusPartTime);
 
-Vehicle v1 = new Vehicle();
+Vehicle v1 = new();
 
 
 
