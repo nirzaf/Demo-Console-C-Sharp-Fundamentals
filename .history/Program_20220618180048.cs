@@ -6,19 +6,11 @@ Student.SubjectsCount = 8;
 
 Console.WriteLine(Student.GetAverageMarks());
 
-Student.Marks = 876;
-Student.SubjectsCount = 10;
-
-Console.WriteLine(Student.GetAverageMarks());
-
 Employee emp1 = new Employee(); 
-Employee emp2 = new Employee();
 
-emp1.BasicSalary = 1000;
-emp1.Overtime = 500;
+Employee.GetTotalGrossSalary();
 
-Console.WriteLine(emp1.GetTotalGrossSalary());
-
+int x = 
 
 
 // var daysBetweenDates = GetDaysBetweenTwoDates(DateTime.Now, DateTime.Now.AddDays(5));

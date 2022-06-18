@@ -1,0 +1,47 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 17:59:39 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Employee.cs
+* Program.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-17-57-16.txt
+* .autogit/logs/log-18-5-2022-17-57-5.txt
+* .autogit/logs/log-18-5-2022-17-57-52.txt
+* .autogit/logs/log-18-5-2022-17-58-27.txt
+* .history/Employee_20220618175656.cs
+* .history/Employee_20220618175657.cs
+* .history/Employee_20220618175703.cs
+* .history/Employee_20220618175706.cs
+* .history/Employee_20220618175708.cs
+* .history/Employee_20220618175711.cs
+* .history/Employee_20220618175713.cs
+* .history/Employee_20220618175720.cs
+* .history/Employee_20220618175723.cs
+* .history/Employee_20220618175728.cs
+* .history/Employee_20220618175729.cs
+* .history/Employee_20220618175733.cs
+* .history/Employee_20220618175739.cs
+* .history/Employee_20220618175740.cs
+* .history/Employee_20220618175748.cs
+* .history/Program_20220618175650.cs
+* .history/Program_20220618175653.cs
+* .history/Program_20220618175759.cs
+* .history/Program_20220618175801.cs
+* .history/Program_20220618175804.cs
+* .history/Program_20220618175806.cs
+* .history/Program_20220618175808.cs
+* .history/Program_20220618175819.cs
+* .history/Program_20220618175844.cs
+* .history/Program_20220618175847.cs
+* .history/Program_20220618175853.cs
+* .history/Program_20220618175855.cs
+
+
+Deleted files:
+
+
+Renamed files:
