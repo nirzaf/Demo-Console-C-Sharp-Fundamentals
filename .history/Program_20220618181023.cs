@@ -17,13 +17,13 @@ Employee emp2 = new Employee();
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;
 
-Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+Console.WriteLine(emp1.GetTotalGrossSalary());
 
 emp2.BasicSalary = 2000;
 emp2.Overtime = 1000;
-Console.WriteLine("Employee2 Salary:" + emp2.GetTotalGrossSalary());
+Console.WriteLine(emp2.GetTotalGrossSalary());
 
-Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+Console.WriteLine
 
 
 

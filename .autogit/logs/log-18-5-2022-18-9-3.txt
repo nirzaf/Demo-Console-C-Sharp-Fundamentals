@@ -1,0 +1,74 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 18:09:03 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Employee.cs
+* Program.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-17-59-39.txt
+* .autogit/logs/log-18-5-2022-18-0-13.txt
+* .autogit/logs/log-18-5-2022-18-0-48.txt
+* .autogit/logs/log-18-5-2022-18-1-25.txt
+* .autogit/logs/log-18-5-2022-18-2-1.txt
+* .autogit/logs/log-18-5-2022-18-2-34.txt
+* .autogit/logs/log-18-5-2022-18-3-22.txt
+* .autogit/logs/log-18-5-2022-18-3-44.txt
+* .autogit/logs/log-18-5-2022-18-4-19.txt
+* .autogit/logs/log-18-5-2022-18-4-55.txt
+* .autogit/logs/log-18-5-2022-18-5-30.txt
+* .autogit/logs/log-18-5-2022-18-6-41.txt
+* .autogit/logs/log-18-5-2022-18-6-5.txt
+* .autogit/logs/log-18-5-2022-18-7-16.txt
+* .autogit/logs/log-18-5-2022-18-7-51.txt
+* .history/Employee_20220618175911.cs
+* .history/Employee_20220618175912.cs
+* .history/Employee_20220618180004.cs
+* .history/Program_20220618175918.cs
+* .history/Program_20220618175944.cs
+* .history/Program_20220618175948.cs
+* .history/Program_20220618175953.cs
+* .history/Program_20220618175954.cs
+* .history/Program_20220618175955.cs
+* .history/Program_20220618180011.cs
+* .history/Program_20220618180041.cs
+* .history/Program_20220618180043.cs
+* .history/Program_20220618180048.cs
+* .history/Program_20220618180054.cs
+* .history/Program_20220618180100.cs
+* .history/Program_20220618180104.cs
+* .history/Program_20220618180108.cs
+* .history/Program_20220618180115.cs
+* .history/Program_20220618180116.cs
+* .history/Program_20220618180118.cs
+* .history/Program_20220618180442.cs
+* .history/Program_20220618180446.cs
+* .history/Program_20220618180513.cs
+* .history/Program_20220618180516.cs
+* .history/Program_20220618180617.cs
+* .history/Program_20220618180619.cs
+* .history/Program_20220618180621.cs
+* .history/Program_20220618180622.cs
+* .history/Program_20220618180624.cs
+* .history/Program_20220618180625.cs
+* .history/Program_20220618180627.cs
+* .history/Program_20220618180630.cs
+* .history/Program_20220618180634.cs
+* .history/Program_20220618180635.cs
+* .history/Program_20220618180636.cs
+* .history/Program_20220618180647.cs
+* .history/Program_20220618180741.cs
+* .history/Program_20220618180744.cs
+* .history/Program_20220618180746.cs
+* .history/Program_20220618180751.cs
+* .history/Program_20220618180753.cs
+* .history/Program_20220618180756.cs
+* .history/Program_20220618180800.cs
+
+
+Deleted files:
+
+
+Renamed files:

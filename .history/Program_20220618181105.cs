@@ -21,9 +21,9 @@ Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
 
 emp2.BasicSalary = 2000;
 emp2.Overtime = 1000;
-Console.WriteLine("Employee2 Salary:" + emp2.GetTotalGrossSalary());
+Console.WriteLine("Employee1 Salary:" + emp2.GetTotalGrossSalary());
 
-Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+Console.WriteLine(emp1.GetTotalGrossSalary());
 
 
 

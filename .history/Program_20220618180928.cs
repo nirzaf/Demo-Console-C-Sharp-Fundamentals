@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using Demo_Console_C_Sharp_Fundamentals;
 
-// Student.Marks = 656;
-// Student.SubjectsCount = 8;
+Student.Marks = 656;
+Student.SubjectsCount = 8;
 
-// Console.WriteLine(Student.GetAverageMarks());
+Console.WriteLine(Student.GetAverageMarks());
 
-// Student.Marks = 876;
-// Student.SubjectsCount = 10;
+Student.Marks = 876;
+Student.SubjectsCount = 10;
 
-// Console.WriteLine(Student.GetAverageMarks());
+Console.WriteLine(Student.GetAverageMarks());
 
 Employee emp1 = new Employee(); 
 Employee emp2 = new Employee();
@@ -17,13 +17,9 @@ Employee emp2 = new Employee();
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;
 
-Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+Console.WriteLine(emp1.GetTotalGrossSalary());
 
-emp2.BasicSalary = 2000;
-emp2.Overtime = 1000;
-Console.WriteLine("Employee2 Salary:" + emp2.GetTotalGrossSalary());
-
-Console.WriteLine("Employee1 Salary:" + emp1.GetTotalGrossSalary());
+emp2.BasicSalary
 
 
 
