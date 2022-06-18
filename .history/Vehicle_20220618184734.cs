@@ -18,7 +18,7 @@ namespace Demo_Console_C_Sharp_Fundamentals
     {
         public string GetGearType()
         {
-            return $"This is an { GearType } gear type";
+            return $"This is an automatic and manual gear";
         }
     }
 

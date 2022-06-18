@@ -12,10 +12,7 @@ using Demo_Console_C_Sharp_Fundamentals;
 //Console.WriteLine(Student.GetAverageMarks());
 
 
-AudiCar car1 = new AudiCar();
-car1.VehicleNumber = "KA-01-AA-1234";
-car1.VehicleName = "Audi";
-car1.GearType = "Dynamic";
+AudiCar car
 
 HolidayPaymentForFullTimeEmployee holidayPayment = new HolidayPaymentForFullTimeEmployee();
 holidayPayment.BasicSalary = 5000;
