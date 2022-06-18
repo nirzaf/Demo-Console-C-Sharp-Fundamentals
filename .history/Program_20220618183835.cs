@@ -27,7 +27,7 @@ var bonusPartTime =  ptEmp1.BonusPartTime();
 
 Console.WriteLine(bonusPartTime);
 
-Vehicle v1 = new Vehicle();
+Vehicle v1 = new Vehicle
 
 
 
