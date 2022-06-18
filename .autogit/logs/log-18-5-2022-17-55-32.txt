@@ -1,0 +1,64 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 18 2022 17:55:32 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Program.cs
+* Student.cs
+
+
+Created files:
+* .autogit/logs/log-18-5-2022-17-50-49.txt
+* .autogit/logs/log-18-5-2022-17-51-24.txt
+* .autogit/logs/log-18-5-2022-17-51-59.txt
+* .autogit/logs/log-18-5-2022-17-52-35.txt
+* .autogit/logs/log-18-5-2022-17-53-10.txt
+* .autogit/logs/log-18-5-2022-17-53-50.txt
+* .autogit/logs/log-18-5-2022-17-54-20.txt
+* .history/Program_20220618175138.cs
+* .history/Program_20220618175141.cs
+* .history/Program_20220618175148.cs
+* .history/Program_20220618175150.cs
+* .history/Program_20220618175153.cs
+* .history/Program_20220618175155.cs
+* .history/Program_20220618175157.cs
+* .history/Program_20220618175159.cs
+* .history/Program_20220618175216.cs
+* .history/Program_20220618175219.cs
+* .history/Program_20220618175220.cs
+* .history/Program_20220618175223.cs
+* .history/Program_20220618175224.cs
+* .history/Program_20220618175229.cs
+* .history/Program_20220618175234.cs
+* .history/Program_20220618175235.cs
+* .history/Program_20220618175239.cs
+* .history/Program_20220618175244.cs
+* .history/Program_20220618175246.cs
+* .history/Program_20220618175249.cs
+* .history/Student_20220618175012.cs
+* .history/Student_20220618175013.cs
+* .history/Student_20220618175017.cs
+* .history/Student_20220618175020.cs
+* .history/Student_20220618175022.cs
+* .history/Student_20220618175028.cs
+* .history/Student_20220618175031.cs
+* .history/Student_20220618175032.cs
+* .history/Student_20220618175037.cs
+* .history/Student_20220618175045.cs
+* .history/Student_20220618175047.cs
+* .history/Student_20220618175053.cs
+* .history/Student_20220618175055.cs
+* .history/Student_20220618175059.cs
+* .history/Student_20220618175104.cs
+* .history/Student_20220618175108.cs
+* .history/Student_20220618175110.cs
+* .history/Student_20220618175115.cs
+* .history/Student_20220618175119.cs
+* .history/Student_20220618175120.cs
+* .history/Student_20220618175125.cs
+
+
+Deleted files:
+
+
+Renamed files:
