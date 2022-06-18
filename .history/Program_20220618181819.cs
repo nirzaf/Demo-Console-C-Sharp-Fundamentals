@@ -15,7 +15,7 @@ Employee emp1 = new Employee();
 Employee emp2 = new Employee();
 FullTimeEmployee fullEmp1 = new FullTimeEmployee();
 
-fullEmp1.BasicSalary = 1000;
+fullemp1.BasicSalary = 1000;
 fullemp1.Overtime = 2000;
 
 
