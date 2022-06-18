@@ -17,9 +17,8 @@ FullTimeEmployee fullEmp1 = new FullTimeEmployee();
 
 fullEmp1.BasicSalary = 1000;
 fullEmp1.Overtime = 2000;
-var bonus = fullEmp1.GetBonus();
+fullEmp1.GetBonus();
 
-Console.WriteLine(bonus);
 
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;
