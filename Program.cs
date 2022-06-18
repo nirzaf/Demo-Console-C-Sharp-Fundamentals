@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using Demo_Console_C_Sharp_Fundamentals;
+﻿using Demo_Console_C_Sharp_Fundamentals;
 
 // Student.Marks = 656;
 // Student.SubjectsCount = 8;
