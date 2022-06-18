@@ -24,9 +24,6 @@ namespace Demo_Console_C_Sharp_Fundamentals
 
     public class PartTimeEmployee : Employee
     {
-        public double GetBonus()
-        {
-            return GetTotalGrossSalary() * 0.05;
-        }
+        
     }
 }
