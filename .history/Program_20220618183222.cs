@@ -16,7 +16,7 @@ HolidayPaymentForFullTimeEmployee holidayPayment = new HolidayPaymentForFullTime
 holidayPayment.BasicSalary = 5000;
 holidayPayment.Overtime = 2000;
 var payment = holidayPayment.GetTotalHolidayPayment();
-Console.WriteLine(payment);
+Console.WriteLine
 
 
 

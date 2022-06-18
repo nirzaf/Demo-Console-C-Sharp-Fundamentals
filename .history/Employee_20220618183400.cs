@@ -20,6 +20,11 @@ namespace Demo_Console_C_Sharp_Fundamentals
         {
             return GetTotalGrossSalary() * 0.1;
         }
+
+        public double GetTotalHolidayPayment()
+        {
+            return GetBonus() * 5;
+        }
     }
 
     public class HolidayPaymentForFullTimeEmployee : FullTimeEmployee
