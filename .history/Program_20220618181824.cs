@@ -19,7 +19,6 @@ fullEmp1.BasicSalary = 1000;
 fullEmp1.Overtime = 2000;
 
 
-
 emp1.BasicSalary = 1000;
 emp1.Overtime = 500;
 
