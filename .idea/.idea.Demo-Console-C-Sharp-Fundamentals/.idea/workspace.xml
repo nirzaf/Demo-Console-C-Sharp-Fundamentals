@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +59,7 @@
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/0b5567882521e02aa3d40a7bce81b7235ccac4db588866e3498e614c3bc/CastHelpers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/a2e23547b6babc78fb634a414bdc249131649bace90e3141fc23f36fa436dce/Hashtable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -145,7 +146,7 @@
       <workItem from="1655547033884" duration="1000" />
       <workItem from="1655561754894" duration="475000" />
       <workItem from="1655609095727" duration="3472000" />
-      <workItem from="1655620994812" duration="323000" />
+      <workItem from="1655620994812" duration="836000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -315,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655609261425</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="  Console.ReadLine();">
+      <created>1655621519348</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655621519348</updated>
+    </task>
+    <task id="LOCAL-00027" summary="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();">
+      <created>1655621831839</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655621831839</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +371,9 @@
     <MESSAGE value="//Console.WriteLine(Student.GetAverageMarks());" />
     <MESSAGE value="using Demo_Console_C_Sharp_Fundamentals;" />
     <MESSAGE value="            Console.WriteLine(&quot;Hello World!&quot;);" />
-    <option name="LAST_COMMIT_MESSAGE" value="            Console.WriteLine(&quot;Hello World!&quot;);" />
+    <MESSAGE value="  Console.ReadLine();" />
+    <MESSAGE value="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
+    <option name="LAST_COMMIT_MESSAGE" value="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
