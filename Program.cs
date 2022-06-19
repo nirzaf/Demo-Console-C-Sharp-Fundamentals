@@ -4,7 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        Epson ep = new ();
+        ep.Print();
+        ep.Scan();
         Console.ReadLine();
     }
 }
