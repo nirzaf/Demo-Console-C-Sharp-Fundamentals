@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +148,7 @@
       <workItem from="1655547033884" duration="1000" />
       <workItem from="1655561754894" duration="475000" />
       <workItem from="1655609095727" duration="3472000" />
-      <workItem from="1655620994812" duration="836000" />
+      <workItem from="1655620994812" duration="1597000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -330,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655621831839</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="    &lt;option name=&quot;LAST_RESOLUTION&quot; value=&quot;IGNORE&quot; /&gt;">
+      <created>1655623107922</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655623107922</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +382,8 @@
     <MESSAGE value="            Console.WriteLine(&quot;Hello World!&quot;);" />
     <MESSAGE value="  Console.ReadLine();" />
     <MESSAGE value="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
-    <option name="LAST_COMMIT_MESSAGE" value="        Epson ep = new ();&#10;        ep.Print();&#10;        ep.Scan();&#10;        Console.ReadLine();" />
+    <MESSAGE value="    &lt;option name=&quot;LAST_RESOLUTION&quot; value=&quot;IGNORE&quot; /&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="    &lt;option name=&quot;LAST_RESOLUTION&quot; value=&quot;IGNORE&quot; /&gt;" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
