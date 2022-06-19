@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Printer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Animal.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vehicle.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,7 @@
       <workItem from="1655545605584" duration="802000" />
       <workItem from="1655547033884" duration="1000" />
       <workItem from="1655561754894" duration="475000" />
-      <workItem from="1655609095727" duration="119000" />
+      <workItem from="1655609095727" duration="3472000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -313,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655562224304</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="            Console.WriteLine(&quot;Hello World!&quot;);">
+      <created>1655609261424</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655609261425</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +358,8 @@
     <MESSAGE value="Hashtable Vs Dictionary" />
     <MESSAGE value="//Console.WriteLine(Student.GetAverageMarks());" />
     <MESSAGE value="using Demo_Console_C_Sharp_Fundamentals;" />
-    <option name="LAST_COMMIT_MESSAGE" value="using Demo_Console_C_Sharp_Fundamentals;" />
+    <MESSAGE value="            Console.WriteLine(&quot;Hello World!&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="            Console.WriteLine(&quot;Hello World!&quot;);" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

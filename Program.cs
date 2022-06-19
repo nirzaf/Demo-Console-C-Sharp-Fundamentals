@@ -1,12 +1,10 @@
-﻿namespace Demo_Console_C_Sharp_Fundamentals
+﻿namespace Demo_Console_C_Sharp_Fundamentals;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello World!");
+        Console.ReadLine();
     }
 }
-
-
