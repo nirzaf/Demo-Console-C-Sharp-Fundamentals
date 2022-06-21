@@ -21,7 +21,7 @@ class Program
             Console.WriteLine(item);
         }
 
-        Console.WriteLine("")
+        Console.W
 
         //Sort all products by name
         products.Sort((p1, p2) => p1.Name.CompareTo(p2.Name));
