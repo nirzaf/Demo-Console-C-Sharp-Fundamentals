@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="        Samsung s1 = new ();&#10;        s1.Print();&#10;        Console.ReadLine();">
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +56,6 @@
         </option>
       </RecentBranches>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Fazrin/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -150,7 +146,8 @@
       <workItem from="1655640862684" duration="372000" />
       <workItem from="1655710774768" duration="2000" />
       <workItem from="1655710876204" duration="3000" />
-      <workItem from="1655780396603" duration="731000" />
+      <workItem from="1655780396603" duration="1555000" />
+      <workItem from="1655786031114" duration="18000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -355,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655780498627</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="        //Selecting a list of distinct category names">
+      <created>1655781353292</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655781353292</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +405,8 @@
     <MESSAGE value="    &lt;option name=&quot;LAST_RESOLUTION&quot; value=&quot;IGNORE&quot; /&gt;" />
     <MESSAGE value="commit updates" />
     <MESSAGE value="        Samsung s1 = new ();&#10;        s1.Print();&#10;        Console.ReadLine();" />
-    <option name="LAST_COMMIT_MESSAGE" value="        Samsung s1 = new ();&#10;        s1.Print();&#10;        Console.ReadLine();" />
+    <MESSAGE value="        //Selecting a list of distinct category names" />
+    <option name="LAST_COMMIT_MESSAGE" value="        //Selecting a list of distinct category names" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
