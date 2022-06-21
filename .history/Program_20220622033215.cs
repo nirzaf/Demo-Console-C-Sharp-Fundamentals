@@ -25,10 +25,7 @@ class Program
         products.Sort((p1, p2) => p1.Name.CompareTo(p2.Name));
 
         //Print all products
-        foreach (var item in products)
-        {
-            Console.WriteLine(item.Name);
-        }
+        
 
         Console.ReadLine();
     }
