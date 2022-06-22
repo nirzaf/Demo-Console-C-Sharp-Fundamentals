@@ -16,8 +16,7 @@ class Program
         //Selecting a list of distinct category names
         var categoryNames = products
         .SelectMany(p => p.Categories)
-        .Distinct()
-        .ToList();
+        .Distinct().ToList();
 
         foreach (var item in categoryNames)
         {
