@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+Sat Jun 25 2022 16:18:15 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* myquery.sdl
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
