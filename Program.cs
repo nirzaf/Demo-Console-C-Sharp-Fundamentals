@@ -38,6 +38,3 @@ class Program
         Console.ReadLine();
     }
 }
-
-public record Product(string Name, List<string> Categories);
-
