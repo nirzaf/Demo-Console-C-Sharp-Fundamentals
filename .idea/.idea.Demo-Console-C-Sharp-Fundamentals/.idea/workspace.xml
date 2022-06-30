@@ -8,14 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Epson.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Samsung.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vehicle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Printer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Printer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +154,7 @@
       <workItem from="1656268364737" duration="41000" />
       <workItem from="1656268458184" duration="2144000" />
       <workItem from="1656273765345" duration="610000" />
-      <workItem from="1656509513525" duration="1321000" />
+      <workItem from="1656509513525" duration="3197000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -380,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656268489198</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="namespace Demo_Console_C_Sharp_Fundamentals;&#10;&#10;public class Car : Vehicle&#10;{&#10;    public string VehicleType { get; set; }&#10;    public string Brand { get; set; }&#10;}">
+      <created>1656518773213</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1656518773213</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +402,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="car.VehicleColor = &quot;Black&quot;;" />
     <MESSAGE value="VehicleNumber" />
     <MESSAGE value="//Console.WriteLine($&quot;{(int)Math.Pow(2, 3)}&quot;);" />
     <MESSAGE value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
@@ -427,7 +426,8 @@
     <MESSAGE value="        Samsung s1 = new ();&#10;        s1.Print();&#10;        Console.ReadLine();" />
     <MESSAGE value="        //Selecting a list of distinct category names" />
     <MESSAGE value="Console.WriteLine(&quot;..............................&quot;);" />
-    <option name="LAST_COMMIT_MESSAGE" value="Console.WriteLine(&quot;..............................&quot;);" />
+    <MESSAGE value="namespace Demo_Console_C_Sharp_Fundamentals;&#10;&#10;public class Car : Vehicle&#10;{&#10;    public string VehicleType { get; set; }&#10;    public string Brand { get; set; }&#10;}" />
+    <option name="LAST_COMMIT_MESSAGE" value="namespace Demo_Console_C_Sharp_Fundamentals;&#10;&#10;public class Car : Vehicle&#10;{&#10;    public string VehicleType { get; set; }&#10;    public string Brand { get; set; }&#10;}" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

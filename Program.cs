@@ -1,4 +1,6 @@
-﻿namespace Demo_Console_C_Sharp_Fundamentals;
+﻿using static System.String;
+
+namespace Demo_Console_C_Sharp_Fundamentals;
 
 class Program
 {
@@ -27,7 +29,7 @@ class Program
         Console.WriteLine("..............................");
 
         //Sort all products by name
-        products.Sort((p1, p2) => p1.Name.CompareTo(p2.Name));
+        products.Sort((p1, p2) => Compare(p1.Name, p2.Name, StringComparison.Ordinal));
 
         //Print all products
         foreach (var item in products)
