@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+Thu Jun 30 2022 23:15:20 GMT+0300 (Arabian Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml
+* Program.cs
+* myquery.sdl
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
