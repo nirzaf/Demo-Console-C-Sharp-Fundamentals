@@ -15,6 +15,14 @@ class Program
             new("Grape", new List<string> {"Fruit", "Red"}),
         };
         
+        var product = products.FirstOrDefault(p => p.Name.Contains("PLE", StringComparison.InvariantCultureIgnoreCase));
+        if (product != null)
+        {
+            Console.WriteLine(product.Name);
+        }
+
+        Console.ReadLine();
+        
         //Selecting a list of distinct category names
         var categoryNames = products
         .SelectMany(p => p.Categories)
