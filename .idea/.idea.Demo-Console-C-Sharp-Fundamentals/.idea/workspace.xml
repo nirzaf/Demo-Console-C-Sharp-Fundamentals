@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="    &quot;WSL&quot;: {&#10;      &quot;commandName&quot;: &quot;WSL2&quot;,&#10;      &quot;environmentVariables&quot;: {},&#10;      &quot;distributionName&quot;: &quot;&quot;&#10;    }">
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));">
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,9 @@
         </option>
       </RecentBranches>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/nirza/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -173,7 +178,7 @@
       <workItem from="1656642891324" duration="87000" />
       <workItem from="1659713326343" duration="95000" />
       <workItem from="1659713479729" duration="73000" />
-      <workItem from="1665141256525" duration="1186000" />
+      <workItem from="1665141256525" duration="1467000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -413,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665142557044</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));">
+      <created>1665142764033</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142764033</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +447,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Vehicle v1 = new()&#10;{&#10;    VehicleNumber = 12121,&#10;    VehicleType = &quot;Car&quot;,&#10;    VehicleColor = &quot;Red&quot;,&#10;    VehicleMaxSpeed = 150,&#10;    IsVehicleRegistered = true&#10;};" />
     <MESSAGE value="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}" />
     <MESSAGE value="using static System.Console;" />
     <MESSAGE value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
@@ -460,7 +471,8 @@
     <MESSAGE value="namespace Demo_Console_C_Sharp_Fundamentals;&#10;&#10;public class Car : Vehicle&#10;{&#10;    public string VehicleType { get; set; }&#10;    public string Brand { get; set; }&#10;}" />
     <MESSAGE value="commit" />
     <MESSAGE value="    &quot;WSL&quot;: {&#10;      &quot;commandName&quot;: &quot;WSL2&quot;,&#10;      &quot;environmentVariables&quot;: {},&#10;      &quot;distributionName&quot;: &quot;&quot;&#10;    }" />
-    <option name="LAST_COMMIT_MESSAGE" value="    &quot;WSL&quot;: {&#10;      &quot;commandName&quot;: &quot;WSL2&quot;,&#10;      &quot;environmentVariables&quot;: {},&#10;      &quot;distributionName&quot;: &quot;&quot;&#10;    }" />
+    <MESSAGE value="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));" />
+    <option name="LAST_COMMIT_MESSAGE" value="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
