@@ -44,7 +44,9 @@ class Program
         {
             Console.WriteLine(item.Name);
         }
-
-        Console.ReadLine();
+        
+        Console.ReadLine(); 
+        //Sort all products by name
+        products.Sort((p1, p2) => Compare(p1.Name, p2.Name, StringComparison.Ordinal));
     }
 }

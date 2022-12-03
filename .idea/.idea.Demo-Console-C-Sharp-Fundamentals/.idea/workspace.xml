@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));">
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Car.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" afterDir="false" />
+    <list default="true" id="ea608389-8e47-4acf-8905-0f0d2f1be08c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo-Console-C-Sharp-Fundamentals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +58,11 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/nirza/OneDrive/Documents/GitHub/Demo-Console-C-Sharp-Fundamentals/Program.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2ATVCkipUXONaLWW8cISNDdqeEr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -73,26 +72,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;AzureAzuriteCertKeyPath&quot;: &quot;&quot;,
-    &quot;AzureAzuriteCertPassword&quot;: &quot;&quot;,
-    &quot;AzureAzuriteCertPath&quot;: &quot;&quot;,
-    &quot;AzureAzuriteLocation&quot;: &quot;&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "AzureAzuriteCertKeyPath": "",
+    "AzureAzuriteCertPassword": "",
+    "AzureAzuriteCertPath": "",
+    "AzureAzuriteLocation": "",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\nirza\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\nirza\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\nirza\\AppData\\Local\\Symbols\\src"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Demo-Console-C-Sharp-Fundamentals">
     <configuration name="Demo-Console-C-Sharp-Fundamentals" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Demo-Console-C-Sharp-Fundamentals.csproj" />
@@ -178,7 +184,9 @@
       <workItem from="1656642891324" duration="87000" />
       <workItem from="1659713326343" duration="95000" />
       <workItem from="1659713479729" duration="73000" />
-      <workItem from="1665141256525" duration="1467000" />
+      <workItem from="1665141256525" duration="2771000" />
+      <workItem from="1668150937884" duration="72000" />
+      <workItem from="1670093839480" duration="783000" />
     </task>
     <task id="LOCAL-00002" summary="car.VehicleColor = &quot;Black&quot;;">
       <created>1655098723025</created>
@@ -425,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665142764033</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="  public string VehicleType { get; set; }&#10;    public string Brand { get; set; }">
+      <created>1665142962744</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142962744</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +462,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="static void MultiplicationTable(int n)&#10;{&#10;    for(int i=1; i&lt;=n; i++)&#10;    {&#10;        int ans = 1 * i;&#10;        Console.WriteLine(&quot;{0} X {1} = {2}&quot;, i, 1, ans);&#10;    }&#10;}" />
     <MESSAGE value="using static System.Console;" />
     <MESSAGE value="Console.Write(&quot;{0}x{1} = {2}&quot;,j,i,i*j);" />
     <MESSAGE value="              Console.Write(&quot;{0} X {1} = {2}&quot;,j,i,i*j);" />
@@ -472,7 +486,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="    &quot;WSL&quot;: {&#10;      &quot;commandName&quot;: &quot;WSL2&quot;,&#10;      &quot;environmentVariables&quot;: {},&#10;      &quot;distributionName&quot;: &quot;&quot;&#10;    }" />
     <MESSAGE value="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));" />
-    <option name="LAST_COMMIT_MESSAGE" value="var product = products.FirstOrDefault(p =&gt; p.Name.Contains(&quot;PLE&quot;, StringComparison.InvariantCultureIgnoreCase));" />
+    <MESSAGE value="  public string VehicleType { get; set; }&#10;    public string Brand { get; set; }" />
+    <option name="LAST_COMMIT_MESSAGE" value="  public string VehicleType { get; set; }&#10;    public string Brand { get; set; }" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
@@ -484,5 +499,9 @@
         <PinnedItemInfo parentTag="Type#Demo_Console_C_Sharp_Fundamentals.Vehicle" memberName="VehicleNumber" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
